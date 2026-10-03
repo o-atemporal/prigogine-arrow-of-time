@@ -467,15 +467,15 @@ A operação reaparece porque é estrutural, não circunstancial.
 
 ## O que ainda não está fechado
 
+**Calibração do par (k, λ) por domínio** — o núcleo relativístico está calibrado;
+os domínios restantes aguardam determinação.
+
 **Assimetria temporal** — resolvida pela 48ª Forma: a velocidade da seta é a
 derivada da razão temporal, com sinal definido e desvanecimento em t → t_evap.
 
 $$
 v_{seta} = \frac{3}{t_{evap}} \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{2} \Big(1 - \frac{t}{t_{evap}}\Big)
 $$
-
-Pendências remanescentes: a calibração do par (k, λ) por domínio, e a direção da
-entropia nos domínios ainda não testados.
 
 ---
 
