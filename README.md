@@ -140,6 +140,14 @@ processável**, e não a entropia de horizonte.
 A seta não é do universo. É da relação entre o sistema e o fluxo — e essa
 relação tem um ponto em que **cessa**: o estado canônico.
 
+### A tese
+
+No estado de fluxo do ser, a entropia é mínima. A reatividade baixa eleva o
+fluxo disponível, e o fluxo elevado reduz o teto entrópico — até que, em
+vₐ = 1, a entropia estaciona e o tempo deixa de incidir.
+
+É a tese de *O Atemporal*: não se gera energia, reduz-se o gasto.
+
 ---
 
 ## Enunciado de trabalho
