@@ -208,6 +208,70 @@ A 9ª descreve o **teto de informação processável** do sistema, e não a entr
 de horizonte.
 
 ---
+## 47ª Forma — O Sentido do Raio Radial
+
+### A equação
+
+$$
+R = \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{\big(1 - a^{2}\cos^{2}\theta\big) \Big(1 - \frac{t}{t_{evap}}\Big)^{1/3}}
+$$
+
+### O que ela estabelece
+
+O raio radial **carrega a seta**. Dado o estado, R diz em que ponto da trajetória
+o sistema está — e o sentido do avanço é o sentido de R.
+
+### A direção — de fora para dentro
+
+| Região | R | vₐ | Seta |
+| --- | --- | --- | --- |
+| Borda do disco | Grande | Alto | Avanço rápido |
+| Interior | Médio | Médio | Avanço menor |
+| Centro | Mínimo | 1 | Parada |
+
+### A parada
+
+Em vₐ = 1 o termo de velocidade se absorve e a razão temporal se anula:
+
+$$
+v_a = 1 \; \Longrightarrow \; \frac{t}{t_{evap}} \to 0 \; \Longrightarrow \; \text{a seta para}
+$$
+
+O ponto de parada é o **centro do disco** — onde a reatividade é unitária e não
+há movimento relativo. Ali resta a relação canônica, R_c = k/Φ.
+
+A parada exige **ausência** de movimento relativo. Fora do centro, com vₐ > 1,
+a taxa de avanço é positiva e a seta corre — quanto maior a reatividade, mais
+rápido o sistema percorre a trajetória.
+
+### Fonte
+
+Inversão estrutural da 46ª Forma, isolando o raio radial.
+
+### O conjunto da tese
+
+| Peça | O que estabelece |
+| --- | --- |
+| 9ª Forma | A entropia decresce com o fluxo; estaciona em vₐ = 1 |
+| 41ª Forma | O tempo de evaporação, recuperado do estado |
+| 46ª Forma | A fração da vida percorrida — o registro do tempo |
+| **47ª Forma** | **O sentido do raio radial — a seta de fora para dentro** |
+
+A cadeia:
+
+$$
+v_a \downarrow \;\Rightarrow\; \Phi \uparrow \;\Rightarrow\; S_{max} \downarrow
+\;\Rightarrow\; v_a = 1 \;\Rightarrow\; \frac{t}{t_{evap}} \to 0
+\;\Rightarrow\; \textbf{a seta para}
+$$
+
+### Status
+
+Forma registrada. Não apresenta calibração numérica.
+
+**Em aberto:** a assimetria temporal como derivada — a forma é simétrica em t.
+
+---
 
 ## Precedência
 
