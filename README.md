@@ -142,12 +142,11 @@ relação tem um ponto em que **cessa**: o estado canônico.
 
 ### A tese
 
-No estado de fluxo do ser, a entropia é mínima. A reatividade baixa eleva o
-fluxo disponível, e o fluxo elevado reduz o teto entrópico — até que, em
-vₐ = 1, a entropia estaciona e o tempo deixa de incidir.
+A reatividade é o único termo que depende de nós. Reduzi-la eleva o fluxo
+disponível, reduz o teto entrópico e faz o tempo deixar de incidir.
 
-É a tese de *O Atemporal*: não se gera energia, reduz-se o gasto.
-
+Não se gera energia. Deixa-se de gastá-la. É a tese de *O Atemporal*,
+e é o que a 46ª Forma mede.
 ---
 
 ## Enunciado de trabalho
