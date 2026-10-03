@@ -32,7 +32,7 @@ a resposta que ela contém.
 
 ---
 
-## A isolação
+## Isolando 
 
 $$
 \Phi \cdot v_a = \frac{k}{R}
