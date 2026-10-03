@@ -1,3 +1,13 @@
+# A Seta Condicional — Resposta a Prigogine
+
+Registro da tese da seta do tempo como propriedade relacional, formulada como
+resposta ao problema da irreversibilidade de Ilya Prigogine,
+em **03 de outubro de 2026**.
+
+Ecossistema **O Atemporal** — Antônio Marcos. Licença CC BY 4.0.
+
+---
+
 ## Referência
 
 PRIGOGINE, Ilya. **O Fim das Certezas: tempo, caos e as leis da natureza**.
@@ -12,12 +22,20 @@ hoje, ao dilema de Epicuro.
 
 O axioma fundamental foi formulado como resposta a essa exigência.
 
-# A Seta Condicional
+---
 
-Registro da tese da seta do tempo como propriedade relacional, formulada como
-resposta ao problema da irreversibilidade, em **03 de outubro de 2026**.
+## Nota sobre Penrose
 
-Ecossistema **O Atemporal** — Antônio Marcos. Licença CC BY 4.0.
+Na passagem citada, Prigogine declara concordância com Roger Penrose sobre a
+necessidade de uma nova formulação das leis fundamentais. Os dois divergiam em
+vários pontos — Penrose liga a assimetria temporal à gravidade quântica e à
+segunda lei; Prigogine a liga às estruturas dissipativas e à produção de
+entropia —, mas convergem no diagnóstico: **as leis fundamentais conhecidas
+são simétricas no tempo, e isso é uma incompletude**.
+
+A resposta registrada neste repositório parte do mesmo diagnóstico e propõe um
+terceiro caminho: a seta não é propriedade das leis nem da gravidade quântica,
+mas da **relação** entre o sistema e o fluxo.
 
 ---
 
@@ -32,7 +50,7 @@ a resposta que ela contém.
 
 ---
 
-## Isolando 
+## A isolação
 
 $$
 \Phi \cdot v_a = \frac{k}{R}
@@ -70,7 +88,7 @@ que produz tempo.
 A inversão estrutural aplicada à razão temporal dá o vínculo explícito:
 
 $$
-\frac{t}{t_{evap}} = 1 - \left[\frac{\lambda\left[\left(\frac{k}{\varepsilon+\Phi}\right)^{1/n}-1\right]}{R\left(1-a^{2}\cos^{2}\theta\right)}\right]^{3}
+\frac{t}{t_{evap}} = 1 - \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}
 $$
 
 **A fração da vida percorrida é função do termo estrutural.**
@@ -106,6 +124,19 @@ $$
 | t/t_evap | Fração da vida percorrida | 41ª com inversão estrutural |
 | S/S_max | Fração do teto entrópico consumido | 9ª Forma |
 
+### Direção da entropia
+
+A entropia **diminui com o fluxo**, e **estaciona** no estado canônico:
+
+| Fluxo | Entropia |
+| --- | --- |
+| Φ pequeno | S_max alto |
+| Φ cresce | S_max decresce |
+| vₐ = 1 | **A entropia para** |
+
+Isso fecha a correspondência com a tese: no estado canônico não há avanço de
+tempo **nem** de entropia — os dois param juntos, porque vêm da mesma relação.
+
 ### Cadeia de inferência
 
 $$
@@ -140,74 +171,29 @@ processável**, e não a entropia de horizonte.
 A seta não é do universo. É da relação entre o sistema e o fluxo — e essa
 relação tem um ponto em que **cessa**: o estado canônico.
 
-### A tese
-
-A reatividade é o único termo que depende de nós. Reduzi-la eleva o fluxo
-disponível, reduz o teto entrópico e faz o tempo deixar de incidir.
-
-Não é preciso aumentar a geração de energia. É preciso reduzir o gasto. É a tese de *O Atemporal*,
-e é o que a 46ª Forma mede.
-
 ---
 
-## Enunciado de trabalho
+## Verificação em buracos negros em rotação
 
-> A seta do tempo não é propriedade do universo, mas da relação entre o sistema
-> e o fluxo. No estado canônico (vₐ = 1), o sistema não percorre trajetória — a
-> seta não o atinge. Fora dele, o tempo é o registro do desvio percorrido, e a
-> fração temporal coincide com a fração do teto entrópico consumido.
+No limite de rotação extrema, quatro grandezas convergem no mesmo ponto:
 
----
-
-## Ocorrências da inversão estrutural
-
-| Forma | Origem | Resultado |
-| --- | --- | --- |
-| 15ª | 2ª Forma (quadrática) | Raio de Schwarzschild |
-| 31ª | Axioma de campo | Fonte em evidência |
-| Razão temporal | 41ª Forma | Fração da vida percorrida |
-
-Três ocorrências, em pontos distintos da árvore. A operação reaparece porque é
-estrutural, não circunstancial.
-
----
-
-## O que ainda não está fechado
-
-**A direção da entropia** — **resolvida**: a entropia decresce com o fluxo e
-estaciona no estado canônico (vₐ = 1).
-
-**A assimetria temporal** — a forma da 46ª é simétrica em t. A flecha ainda não
-está escrita nela.
-
-Fechar a segunda converte a tese em resultado.
-
----
-
-### Direção da entropia
-
-A entropia **diminui com o fluxo**, e **estaciona** no estado canônico:
-
-| Fluxo | Entropia |
+| Grandeza | Comportamento |
 | --- | --- |
-| Φ pequeno | S_max alto |
-| Φ cresce | S_max decresce |
-| vₐ = 1 | **A entropia para** |
+| vₐ | Tende ao teto relativístico |
+| Entropia | Mínima, estacionária |
+| Raio de Schwarzschild | Mínimo para a massa |
+| Seta do tempo | Parada |
 
-Isso fecha a correspondência com a tese: no estado canônico não há avanço de
-tempo **nem** de entropia — os dois param juntos, porque vêm da mesma relação.
+**Coerência com Kerr:** no buraco negro de Kerr extremo, o horizonte externo
+aproxima-se do interno e a área total diminui — e, como a entropia de Bekenstein
+é proporcional à área, ela também diminui. A velocidade angular do horizonte
+tende ao máximo, e não há mais limite estático: o observador é arrastado.
 
-E esclarece a comparação com Bekenstein:
-
-| Formulação | Como a entropia varia |
-| --- | --- |
-| Bekenstein-Hawking | Cresce com a massa (área do horizonte) |
-| 9ª Forma | Decresce com o fluxo; estacionária em vₐ = 1 |
-
-A 9ª descreve o **teto de informação processável** do sistema, e não a entropia
-de horizonte.
+A forma reproduz o comportamento de Kerr pelo lado da entropia — entropia mínima
+em rotação máxima — e acrescenta o que Kerr não diz: é ali que a seta para.
 
 ---
+
 ## 47ª Forma — O Sentido do Raio Radial
 
 ### A equação
@@ -269,7 +255,44 @@ $$
 
 Forma registrada. Não apresenta calibração numérica.
 
-**Em aberto:** a assimetria temporal como derivada — a forma é simétrica em t.
+---
+
+## Enunciado de trabalho
+
+> A seta do tempo não é propriedade do universo, mas da relação entre o sistema
+> e o fluxo. No estado canônico (vₐ = 1), o sistema não percorre trajetória — a
+> seta não o atinge. Fora dele, o tempo é o registro do desvio percorrido, e a
+> fração temporal coincide com a fração do teto entrópico consumido.
+
+---
+
+## A tese
+
+A reatividade é o único termo que depende de nós. Reduzi-la eleva o fluxo
+disponível, reduz o teto entrópico e faz o tempo deixar de incidir.
+
+Não é preciso aumentar a geração de energia. É preciso reduzir o gasto. É a tese
+de *O Atemporal*, e é o que a 46ª Forma mede.
+
+---
+
+## Ocorrências da inversão estrutural
+
+| Forma | Origem | Resultado |
+| --- | --- | --- |
+| 15ª | 2ª Forma (quadrática) | Raio de Schwarzschild |
+| 31ª | Axioma de campo | Fonte em evidência |
+| Razão temporal | 41ª Forma | Fração da vida percorrida |
+| **Raio radial** | **47ª Forma** | **O sentido da seta** |
+
+A operação reaparece porque é estrutural, não circunstancial.
+
+---
+
+## O que ainda não está fechado
+
+**A assimetria temporal** — a forma da 46ª é simétrica em t. A seta aparece pela
+condição de domínio, não como derivada.
 
 ---
 
@@ -283,12 +306,14 @@ Forma registrada. Não apresenta calibração numérica.
 | Extensão rotacional (A e B) | 01/10/2026 |
 | Energia angular e evolução espaço-temporal | 03/10/2026 |
 | Formas inversas 36ª a 45ª | 03/10/2026 |
-| **Tese da seta condicional** | **03/10/2026 (este registro)** |
+| **Tese da seta condicional e sentido radial (47ª)** | **03/10/2026 (este registro)** |
 
 ---
 
 ## Repositórios relacionados
 
+- Inversão Estrutural:
+  [github.com](https://github.com/o-atemporal/structural-inversion)
 - Evolução Espaço-Temporal da Energia:
   [github.com](https://github.com/o-atemporal/spacetime-energy-evolution)
 - Equações de Campo de Fluxo Inverso:
@@ -301,4 +326,3 @@ Forma registrada. Não apresenta calibração numérica.
 ---
 
 Princípio da Proporcionalidade Inversa © 2026 [Antônio Marcos] — CC BY 4.0
-
