@@ -166,12 +166,38 @@ estrutural, não circunstancial.
 
 ## O que ainda não está fechado
 
-**A direção da entropia na 9ª Forma** — se cresce ou decresce com o fluxo.
+**A direção da entropia** — **resolvida**: a entropia decresce com o fluxo e
+estaciona no estado canônico (vₐ = 1).
 
-**A assimetria temporal** — a forma da 41ª é simétrica em t. A flecha ainda não
+**A assimetria temporal** — a forma da 46ª é simétrica em t. A flecha ainda não
 está escrita nela.
 
-Fechar as duas converte a tese em resultado.
+Fechar a segunda converte a tese em resultado.
+
+---
+
+### Direção da entropia
+
+A entropia **diminui com o fluxo**, e **estaciona** no estado canônico:
+
+| Fluxo | Entropia |
+| --- | --- |
+| Φ pequeno | S_max alto |
+| Φ cresce | S_max decresce |
+| vₐ = 1 | **A entropia para** |
+
+Isso fecha a correspondência com a tese: no estado canônico não há avanço de
+tempo **nem** de entropia — os dois param juntos, porque vêm da mesma relação.
+
+E esclarece a comparação com Bekenstein:
+
+| Formulação | Como a entropia varia |
+| --- | --- |
+| Bekenstein-Hawking | Cresce com a massa (área do horizonte) |
+| 9ª Forma | Decresce com o fluxo; estacionária em vₐ = 1 |
+
+A 9ª descreve o **teto de informação processável** do sistema, e não a entropia
+de horizonte.
 
 ---
 
