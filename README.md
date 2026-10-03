@@ -153,9 +153,8 @@ $$
 | 9ª Forma | S_max = λ_S · k / Φ | Razão identidade/fluxo |
 
 A comparação é testável objeto por objeto, com massa medida independentemente.
-Se o fluxo é a massa em energia, a 9ª dá entropia decrescente com a massa — o
-inverso de Bekenstein. Isso indica que ela descreve o teto de **informação
-processável**, e não a entropia de horizonte.
+Isso indica que a 9ª descreve o teto de **informação processável**, e não a
+entropia de horizonte.
 
 ---
 
@@ -170,6 +169,32 @@ processável**, e não a entropia de horizonte.
 
 A seta não é do universo. É da relação entre o sistema e o fluxo — e essa
 relação tem um ponto em que **cessa**: o estado canônico.
+
+---
+
+## A taxa da seta
+
+A taxa de transformação é o produto entre a reatividade e a resistência:
+
+$$
+\frac{d}{dt}\left(\frac{t}{t_{evap}}\right) \;\propto\; v_a \cdot R
+$$
+
+E, como o fluxo é Φ = k/(vₐ·R), o que decai ao longo da trajetória é a
+**identidade do sistema**:
+
+| t | vₐ·R | k efetivo | Seta |
+| --- | --- | --- | --- |
+| Início | Baixo | Alto | — |
+| Meio | Médio | Decaindo | Avança |
+| Fim (vₐ = 1) | Mínimo | Estável | Para |
+
+**A seta mede o decaimento de k em função do tempo.** Quanto mais rápida a
+transformação da identidade, mais rápido corre o tempo.
+
+**Resposta a Prigogine:** ele buscava a produção — o quanto se gera por unidade
+de tempo. A produção é o decaimento da identidade do sistema. Não o teto
+entrópico (9ª Forma), mas a sua **taxa**.
 
 ---
 
@@ -191,6 +216,41 @@ tende ao máximo, e não há mais limite estático: o observador é arrastado.
 
 A forma reproduz o comportamento de Kerr pelo lado da entropia — entropia mínima
 em rotação máxima — e acrescenta o que Kerr não diz: é ali que a seta para.
+
+---
+
+## Aplicação ao sistema de Kerr — o limite canônico
+
+No limite de rotação extrema, com vₐ = 1, R mínimo e fluxo máximo:
+
+$$
+k = \Phi
+$$
+
+A identidade do sistema iguala-se ao fluxo disponível. Não há mais decaimento
+de k — porque não há mais vₐ·R a consumi-lo. O sistema está em equilíbrio
+consigo mesmo.
+
+| Grandeza | No limite canônico |
+| --- | --- |
+| vₐ | 1 — o termo se absorve |
+| R | mínimo |
+| Φ | máximo |
+| S_max | mínimo, estacionário |
+| k | = Φ |
+| Seta | parada |
+
+**Coerência com Kerr:**
+
+| Kerr extremo | Esta forma |
+| --- | --- |
+| Horizonte externo → interno | R mínimo |
+| Área total mínima | S_max mínimo |
+| Velocidade angular máxima | Φ máximo |
+| Sem limite estático — observador arrastado | vₐ = 1 — sem movimento relativo |
+
+**O que a forma acrescenta:** no extremo, a identidade do sistema não é mais uma
+constante a decair — ela é o fluxo. A transformação cessa, e a seta para.
 
 ---
 
@@ -234,7 +294,125 @@ rápido o sistema percorre a trajetória.
 
 Inversão estrutural da 46ª Forma, isolando o raio radial.
 
-### O conjunto da tese
+---
+
+## 48ª Forma — A Velocidade da Seta
+
+### Origem
+
+A 46ª Forma isola a fração da vida percorrida. Sua **derivada** é a velocidade com
+que essa fração avança — e é ela que dá à seta do tempo uma taxa mensurável.
+
+A forma nasce da constatação de que a taxa de transformação do sistema é o
+produto entre a reatividade e a resistência — vₐ·R —, a mesma grandeza que
+aparece no denominador do axioma fundamental.
+
+### A equação
+
+$$
+v_{seta} = \frac{d}{dt}\left(\frac{t}{t_{evap}}\right)
+$$
+
+E, no modelo:
+
+$$
+v_{seta} \;\propto\; v_a \cdot R \;=\; \frac{k}{\Phi}
+$$
+
+### A derivação
+
+Partindo da 46ª com o termo estrutural isolado:
+
+$$
+1 - \frac{t}{t_{evap}} = \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}
+$$
+
+Nomeando o colchete:
+
+$$
+u = \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)}
+$$
+
+A razão temporal é 1 − u³. Derivando em relação a t, com
+R(t) = R₀ (1 − t/t_evap)^(1/3):
+
+$$
+v_{seta} = \frac{d}{dt}\big(1 - u^{3}\big) = -3u^{2} \frac{du}{dt}
+$$
+
+Como u ∝ 1/R³ e R³ ∝ (1 − t/t_evap):
+
+$$
+\frac{du}{dt} \propto -\frac{1}{R^{4}} \cdot \frac{R_0}{3\,t_{evap}} \Big(1 - \frac{t}{t_{evap}}\Big)^{-2/3}
+$$
+
+**Resultado em forma fechada:**
+
+$$
+v_{seta} = \frac{3}{t_{evap}} \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{2} \Big(1 - \frac{t}{t_{evap}}\Big)
+$$
+
+### O que a forma estabelece
+
+A seta deixa de ser direção e passa a ser **velocidade**.
+
+| Leitura | Escrita | O que significa |
+| --- | --- | --- |
+| Pelo produto | v_seta ∝ vₐ·R | Reatividade × resistência |
+| Pela identidade | v_seta ∝ k/Φ | O decaimento de k |
+
+| Termo da derivada | Papel |
+| --- | --- |
+| 3 / t_evap | Escala temporal do sistema |
+| u² | Termo estrutural ao quadrado |
+| (1 − t/t_evap) | Fator de desvanecimento |
+
+### Os regimes
+
+| Região | vₐ·R | v_seta | Estado |
+| --- | --- | --- | --- |
+| Borda do disco | Alto | Rápida | Reatividade alta |
+| Interior | Médio | Média | Transformação em curso |
+| Centro (vₐ = 1) | Mínimo | Zero | Seta parada |
+
+| Instante | 1 − t/t_evap | v_seta |
+| --- | --- | --- |
+| Início (t = 0) | → 1 | Máxima |
+| Meio | intermediário | Decrescente |
+| Fim (t → t_evap) | → 0 | → 0 — a seta para |
+
+### Limite canônico
+
+$$
+v_a = 1, \; R \to R_{min} \;\Longrightarrow\; v_{seta} \to 0, \; k = \Phi
+$$
+
+No extremo, a identidade iguala-se ao fluxo. Não há mais transformação, e a seta para.
+
+### Aplicação ao sistema de Kerr
+
+| Grandeza | Borda | Centro / Kerr extremo |
+| --- | --- | --- |
+| vₐ | Alto | 1 |
+| R | Grande | Mínimo |
+| Φ | Baixo | Máximo |
+| S_max | Alta | Mínima |
+| **v_seta** | **Rápida** | **Zero** |
+| Identidade | k decaindo | k = Φ — estável |
+
+### O que a forma acrescenta
+
+Direção (47ª), ponto de parada e **velocidade**. A seta passa a ser mensurável:
+medindo reatividade e resistência, tem-se a taxa do tempo.
+
+### Status
+
+Forma registrada, com equação, derivação, regimes e aplicação ao limite de Kerr.
+Não apresenta calibração numérica.
+
+---
+
+## O conjunto da tese
 
 | Peça | O que estabelece |
 | --- | --- |
@@ -242,18 +420,16 @@ Inversão estrutural da 46ª Forma, isolando o raio radial.
 | 41ª Forma | O tempo de evaporação, recuperado do estado |
 | 46ª Forma | A fração da vida percorrida — o registro do tempo |
 | **47ª Forma** | **O sentido do raio radial — a seta de fora para dentro** |
+| **48ª Forma** | **A velocidade da seta — a taxa de transformação** |
 
 A cadeia:
 
 $$
 v_a \downarrow \;\Rightarrow\; \Phi \uparrow \;\Rightarrow\; S_{max} \downarrow
 \;\Rightarrow\; v_a = 1 \;\Rightarrow\; \frac{t}{t_{evap}} \to 0
+\;\Rightarrow\; v_{seta} \to 0
 \;\Rightarrow\; \textbf{a seta para}
 $$
-
-### Status
-
-Forma registrada. Não apresenta calibração numérica.
 
 ---
 
@@ -291,8 +467,16 @@ A operação reaparece porque é estrutural, não circunstancial.
 
 ## O que ainda não está fechado
 
-**A assimetria temporal** — a forma da 46ª é simétrica em t. A seta aparece pela
-condição de domínio, não como derivada.
+**A assimetria temporal como derivada formal** — a forma da 46ª é simétrica em t;
+aqui a seta entra pela proporcionalidade à taxa de transformação.
+
+---
+
+## Modelo aberto
+
+O sistema é aberto. Formas derivadas podem ser apresentadas por terceiros, desde
+que a raiz seja citada. Este repositório registra as que o autor formulou até a
+data indicada.
 
 ---
 
@@ -306,7 +490,7 @@ condição de domínio, não como derivada.
 | Extensão rotacional (A e B) | 01/10/2026 |
 | Energia angular e evolução espaço-temporal | 03/10/2026 |
 | Formas inversas 36ª a 45ª | 03/10/2026 |
-| **Tese da seta condicional e sentido radial (47ª)** | **03/10/2026 (este registro)** |
+| **Tese da seta condicional, taxa, velocidade e sentido radial (47ª e 48ª)** | **03/10/2026 (este registro)** |
 
 ---
 
