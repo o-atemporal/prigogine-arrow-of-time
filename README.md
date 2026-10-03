@@ -1,8 +1,6 @@
 ## Referência
 
 PRIGOGINE, Ilya. **O Fim das Certezas: tempo, caos e as leis da natureza**.
-Tradução de Roberto Leal Ferreira. São Paulo: Editora UNESP, 1996.
-(Título original: *La Fin des certitudes*, 1996.)
 
 É dessa obra a citação que abre a Segunda Edição de *Equações de Fluxo Inverso*.
 Nela, Prigogine sustenta que uma física que ignore a assimetria do tempo é tão
