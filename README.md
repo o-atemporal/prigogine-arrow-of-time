@@ -12,11 +12,10 @@ hoje, ao dilema de Epicuro.
 
 O axioma fundamental foi formulado como resposta a essa exigência.
 
-# A Seta Condicional — Resposta a Prigogine
+# A Seta Condicional
 
-Registro da tese da seta do tempo como propriedade relacional, formulada
-como resposta ao problema da irreversibilidade de Ilya Prigogine,
-em **03 de outubro de 2026**.
+Registro da tese da seta do tempo como propriedade relacional, formulada como
+resposta ao problema da irreversibilidade, em **03 de outubro de 2026**.
 
 Ecossistema **O Atemporal** — Antônio Marcos. Licença CC BY 4.0.
 
@@ -24,11 +23,12 @@ Ecossistema **O Atemporal** — Antônio Marcos. Licença CC BY 4.0.
 
 ## Origem
 
-A questão central da obra de Ilya Prigogine: se as leis fundamentais da física
-são simétricas no tempo, de onde vem a irreversibilidade?
+O axioma fundamental foi formulado como resposta ao problema da seta do tempo
+— a questão que Ilya Prigogine perseguiu por décadas: se as leis fundamentais
+da física são simétricas no tempo, de onde vem a irreversibilidade?
 
-O axioma fundamental, formulado em 04 de abril de 2026, nasceu dessa busca.
-Este documento registra a resposta que ele contém.
+A formulação de 04 de abril de 2026 nasceu dessa busca. Este documento registra
+a resposta que ela contém.
 
 ---
 
@@ -70,7 +70,7 @@ que produz tempo.
 A inversão estrutural aplicada à razão temporal dá o vínculo explícito:
 
 $$
-\frac{t}{t_{evap}} = 1 - \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}
+\frac{t}{t_{evap}} = 1 - \left[\frac{\lambda\left[\left(\frac{k}{\varepsilon+\Phi}\right)^{1/n}-1\right]}{R\left(1-a^{2}\cos^{2}\theta\right)}\right]^{3}
 $$
 
 **A fração da vida percorrida é função do termo estrutural.**
@@ -142,34 +142,6 @@ relação tem um ponto em que **cessa**: o estado canônico.
 
 ---
 
-## Referência
-
-PRIGOGINE, Ilya. **O Fim das Certezas: tempo, caos e as leis da natureza**.
-Tradução de Roberto Leal Ferreira. São Paulo: Editora UNESP, 1996.
-(Título original: *La Fin des certitudes*, 1996.)
-
-A citação que abre a Segunda Edição de *Equações de Fluxo Inverso* está nessa
-obra: a exigência de uma nova formulação das leis fundamentais da física que
-dê lugar à assimetria do tempo — sob pena de serem tão incompletas quanto
-seriam se ignorassem a gravitação ou a eletricidade.
-
----
-
-## Nota sobre Penrose
-
-Na passagem citada, Prigogine declara concordância com Roger Penrose sobre a
-necessidade de uma nova formulação das leis fundamentais. Os dois divergiam em
-vários pontos — Penrose liga a assimetria temporal à gravidade quântica e à
-segunda lei; Prigogine a liga às estruturas dissipativas e à produção de
-entropia —, mas convergem no diagnóstico: **as leis fundamentais conhecidas
-são simétricas no tempo, e isso é uma incompletude**.
-
-A resposta registrada neste repositório parte do mesmo diagnóstico e propõe um
-terceiro caminho: a seta não é propriedade das leis nem da gravidade quântica,
-mas da **relação** entre o sistema e o fluxo.
-
----
-
 ## Enunciado de trabalho
 
 > A seta do tempo não é propriedade do universo, mas da relação entre o sistema
@@ -231,3 +203,4 @@ Fechar as duas converte a tese em resultado.
 ---
 
 Princípio da Proporcionalidade Inversa © 2026 [Antônio Marcos] — CC BY 4.0
+
