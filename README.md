@@ -530,6 +530,54 @@ valor é ajustado: o raio de cada ponto vem de fórmula publicada, e a identidad
 
 ---
 
+## O zero da seta
+
+A 48ª Forma passa a ter origem. O termo de deslocamento não é um parâmetro livre:
+ele **é** a identidade do estado canônico, e é ela que define onde a seta para.
+
+$$
+v_{seta} = \frac{3}{t_{evap}}
+\left[\frac{\lambda\left[\left(\frac{k}{k_c}\right)^{1/n}-1\right]}{R\left(1-a^{2}\cos^{2}\theta\right)}\right]^{2}
+\left(1-\frac{t}{t_{evap}}\right)
+\qquad\text{com}\qquad
+k_c = \frac{GM^{2}}{c^{2}}
+$$
+
+O numerador zera onde k = k_c. E, como k = RΦ, a razão dentro do colchete é a
+razão do horizonte de Kerr:
+
+$$
+\frac{k}{k_c} = \frac{R}{GM/c^{2}} = 1+\sqrt{1-\chi^{2}}
+$$
+
+### M87* — a seta em cada spin
+
+| χ | R (bi km) | k/k_c | Numerador | v_seta |
+| --- | --- | --- | --- | --- |
+| 0,0 | 19,20 | 2,000000 | 1,000000 | máxima |
+| 0,5 | 17,92 | 1,866025 | 0,866025 | corre |
+| 0,9 | 13,79 | 1,435890 | 0,435890 | desacelera |
+| 0,99 | 10,96 | 1,141067 | 0,141067 | quase para |
+| **1,0** | **9,60** | **1,000000** | **0** | **0 — para** |
+
+### O que a equação estabelece
+
+A equação ganha origem: **ela nasce no canônico**, onde k = k_c, o tempo é zero
+e a seta não incide. Fora dele, o tempo é a taxa com que o k se transforma em
+direção ao valor canônico — e quanto mais longe do canônico, mais rápido corre.
+
+| Fator | Papel |
+| --- | --- |
+| 3 / t_evap | Escala temporal do sistema |
+| (k/k_c)^(1/n) − 1 | O desvio da identidade em relação ao canônico |
+| (1 − t/t_evap) | Fator de desvanecimento |
+
+**A seta para onde a identidade atinge o valor canônico** — o mesmo ponto em que
+os quatro raios de Kerr convergem. O zero da seta e o limite de rotação extrema
+são o mesmo ponto, obtidos por dois caminhos.
+
+---
+
 ## Verificação contra a métrica de Kerr
 
 O raio do Passo 2 é conferível contra fórmulas publicadas, de fora do modelo:
