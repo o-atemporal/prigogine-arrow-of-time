@@ -119,122 +119,210 @@ $$
 
 **A fração temporal e a fração entrópica medem o mesmo avanço por dois caminhos.**
 
-| Grandeza | O que mede | Como é obtida |
-| --- | --- | --- |
-| t/t_evap | Fração da vida percorrida | 41ª com inversão estrutural |
-| S/S_max | Fração do teto entrópico consumido | 9ª Forma |
-
-### Direção da entropia
-
-A entropia **diminui com o fluxo**, e **estaciona** no estado canônico:
-
-| Fluxo | Entropia |
-| --- | --- |
-| Φ pequeno | S_max alto |
-| Φ cresce | S_max decresce |
-| vₐ = 1 | **A entropia para** |
-
-Isso fecha a correspondência com a tese: no estado canônico não há avanço de
-tempo **nem** de entropia — os dois param juntos, porque vêm da mesma relação.
-
-### Cadeia de inferência
-
-$$
-\text{estado} \;\longrightarrow\; \frac{t}{t_{evap}} \;\longrightarrow\; t_{evap} \;\longrightarrow\; \frac{S}{S_{max}}
-$$
-
 ---
 
-## Correspondência com Bekenstein
+## 48ª Forma — A Velocidade da Seta
 
-| Formulação | Entropia | Depende de |
-| --- | --- | --- |
-| Bekenstein-Hawking | S = k_B c³ A / (4 G ħ) | Área do horizonte |
-| 9ª Forma | S_max = λ_S · k / Φ | Razão identidade/fluxo |
+### Origem
 
-A comparação é testável objeto por objeto, com massa medida independentemente.
-Se o fluxo é a massa em energia, a 9ª dá entropia decrescente com a massa — o
-inverso de Bekenstein. Isso indica que ela descreve o teto de **informação
-processável**, e não a entropia de horizonte.
+A 46ª Forma isola a fração da vida percorrida. Sua **derivada** é a velocidade com
+que essa fração avança — e é ela que dá à seta do tempo uma taxa mensurável.
 
----
-
-## Por que isso responde a Prigogine
-
-| Prigogine | Esta formulação |
-| --- | --- |
-| A seta é propriedade das leis | A seta é propriedade da **relação** |
-| Irreversibilidade universal | Irreversibilidade **condicional** |
-| Precisa de lei assimétrica | Não precisa — basta que a relação tenha um ponto de anulação |
-| O tempo é produzido pela estrutura | O tempo **incide** onde há desvio |
-
-A seta não é do universo. É da relação entre o sistema e o fluxo — e essa
-relação tem um ponto em que **cessa**: o estado canônico.
-
----
-
-## Verificação em buracos negros em rotação
-
-No limite de rotação extrema, quatro grandezas convergem no mesmo ponto:
-
-| Grandeza | Comportamento |
-| --- | --- |
-| vₐ | Tende ao teto relativístico |
-| Entropia | Mínima, estacionária |
-| Raio de Schwarzschild | Mínimo para a massa |
-| Seta do tempo | Parada |
-
-**Coerência com Kerr:** no buraco negro de Kerr extremo, o horizonte externo
-aproxima-se do interno e a área total diminui — e, como a entropia de Bekenstein
-é proporcional à área, ela também diminui. A velocidade angular do horizonte
-tende ao máximo, e não há mais limite estático: o observador é arrastado.
-
-A forma reproduz o comportamento de Kerr pelo lado da entropia — entropia mínima
-em rotação máxima — e acrescenta o que Kerr não diz: é ali que a seta para.
-
----
-
-## 47ª Forma — O Sentido do Raio Radial
+A forma nasce da constatação de que a taxa de transformação do sistema é o
+produto entre a reatividade e a resistência — vₐ·R —, a mesma grandeza que
+aparece no denominador do axioma fundamental.
 
 ### A equação
 
 $$
-R = \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{\big(1 - a^{2}\cos^{2}\theta\big) \Big(1 - \frac{t}{t_{evap}}\Big)^{1/3}}
+v_{seta} = \frac{d}{dt}\left(\frac{t}{t_{evap}}\right)
 $$
 
-### O que ela estabelece
-
-O raio radial **carrega a seta**. Dado o estado, R diz em que ponto da trajetória
-o sistema está — e o sentido do avanço é o sentido de R.
-
-### A direção — de fora para dentro
-
-| Região | R | vₐ | Seta |
-| --- | --- | --- | --- |
-| Borda do disco | Grande | Alto | Avanço rápido |
-| Interior | Médio | Médio | Avanço menor |
-| Centro | Mínimo | 1 | Parada |
-
-### A parada
-
-Em vₐ = 1 o termo de velocidade se absorve e a razão temporal se anula:
+E, no modelo:
 
 $$
-v_a = 1 \; \Longrightarrow \; \frac{t}{t_{evap}} \to 0 \; \Longrightarrow \; \text{a seta para}
+v_{seta} \;\propto\; v_a \cdot R \;=\; \frac{k}{\Phi}
 $$
 
-O ponto de parada é o **centro do disco** — onde a reatividade é unitária e não
-há movimento relativo. Ali resta a relação canônica, R_c = k/Φ.
+### A derivação
 
-A parada exige **ausência** de movimento relativo. Fora do centro, com vₐ > 1,
-a taxa de avanço é positiva e a seta corre — quanto maior a reatividade, mais
-rápido o sistema percorre a trajetória.
+Partindo da 46ª com o termo estrutural isolado:
+
+$$
+1 - \frac{t}{t_{evap}} = \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{3}
+$$
+
+Nomeando o colchete:
+
+$$
+u = \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)}
+$$
+
+A razão temporal é 1 − u³. Derivando em relação a t, com
+R(t) = R₀ (1 − t/t_evap)^(1/3):
+
+$$
+v_{seta} = \frac{d}{dt}\big(1 - u^{3}\big) = -3u^{2} \frac{du}{dt}
+$$
+
+Como u ∝ 1/R³ e R³ ∝ (1 − t/t_evap):
+
+$$
+\frac{du}{dt} \propto -\frac{1}{R^{4}} \cdot \frac{R_0}{3\,t_{evap}} \Big(1 - \frac{t}{t_{evap}}\Big)^{-2/3}
+$$
+
+**Resultado em forma fechada:**
+
+$$
+v_{seta} = \frac{3}{t_{evap}} \Bigg[ \frac{\lambda \Big[ \big( \frac{k}{\varepsilon+\Phi} \big)^{1/n} - 1 \Big]}{R \big(1 - a^{2}\cos^{2}\theta\big)} \Bigg]^{2} \Big(1 - \frac{t}{t_{evap}}\Big)
+$$
+
+### O que a forma estabelece
+
+A seta deixa de ser direção e passa a ser **velocidade**.
+
+| Momento | O que ocorre |
+| --- | --- |
+| Início (t = 0) | O fator de desvanecimento é máximo; a velocidade atinge seu ápice |
+| Meio | Conforme t avança, o fator diminui e o tempo desacelera |
+| Fim (t → t_evap) | O fator tende a zero e a velocidade se anula — o tempo para |
 
 ### Fonte
 
-Inversão estrutural da 46ª Forma, isolando o raio radial.
+Derivada da 46ª Forma, com o raio radial decaindo segundo a lei de Hawking.
 
-### O conjunto da tese
+### Status
+
+Forma registrada, com equação, derivação, regimes e aplicação ao limite de Kerr.
+Não apresenta calibração numérica.
+
+---
+
+## A dedução de k e λ — o estado canônico
+
+### Partida — a Quinta Forma
+
+No estado canônico, com a reatividade no valor unitário:
+
+$$
+v_a = 1
+\qquad \Longrightarrow \qquad
+R_c = \lambda\,\frac{k}{\Phi}
+$$
+
+### Passo 1 — o fluxo
+
+$$
+\Phi = Mc^{2}
+$$
+
+### Passo 2 — o raio no centro
+
+No centro do disco, no limite de rotação extrema, o raio característico é o
+raio gravitacional:
+
+$$
+R_c = \frac{GM}{c^{2}}
+$$
+
+### Passo 3 — substituição
+
+$$
+\frac{GM}{c^{2}} = \lambda\,\frac{k}{Mc^{2}}
+$$
+
+### Passo 4 — o produto
+
+$$
+\boxed{\;\lambda\,k = \frac{GM^{2}}{c^{2}}\;}
+$$
+
+O fator c² cancela. O produto sai **algébrico** — nenhum valor calibrado entra
+na dedução.
+
+### Passo 5 — o seletor
+
+$$
+\lambda = 1
+$$
+
+### Passo 6 — a identidade
+
+$$
+\boxed{\;k_c = \frac{GM^{2}}{c^{2}}\;}
+$$
+
+### A dependência por raio
+
+A inversão estrutural da 31ª Forma dá, para cada raio, a identidade própria:
+
+$$
+k = (\Phi+\varepsilon)\left(\frac{\lambda}{R_c}\right)^{n}
+$$
+
+com o expoente dado pela dimensão do domínio — **n = 1 no canônico,
+n = 2 no relativístico**.
+
+### Termos de verificação
+
+| Massa | R_c (m) | Φ (J) | k_c = GM²/c² |
+| --- | --- | --- | --- |
+| 1 M_sol | 1,477e3 | 1,788e47 | 2,938e33 |
+| 10 M_sol | 1,477e4 | 1,788e48 | 2,938e35 |
+| 100 M_sol | 1,477e5 | 1,788e49 | 2,938e37 |
+| Sgr A* | 6,351e9 | 7,687e53 | 5,432e46 |
+| M87* | 9,601e12 | 1,162e57 | 1,241e53 |
+
+**Escala com a massa.** k(2M)/k(M) = 4,000000 · k(3M)/k(M) = 9,000000 —
+verificado.
+
+**Dimensão de k_c.** Massa × comprimento (kg·m).
+
+### Os dois troncos
+
+| Tronco | Origem | k | Escala com M |
+| --- | --- | --- | --- |
+| Relativístico | 2ª Forma (expoente radial 2) | c⁷/(4G²M) | ∝ M⁻¹ |
+| **Canônico** | **5ª Forma (vₐ = 1)** | **GM²/c²** | **∝ M²** |
+
+A razão entre as duas identidades:
+
+$$
+\frac{k_c}{k_{rel}} = \frac{4G^{3}M^{3}}{c^{9}} = 4\left(\frac{GM}{c^{3}}\right)^{3}
+$$
+
+— o cubo do tempo característico da massa, verificado nas cinco massas.
+
+---
+
+## Verificação contra a métrica de Kerr
+
+O raio do Passo 2 é conferível contra fórmulas publicadas, de fora do modelo:
+
+| Raio | Fórmula (G = c = 1) |
+| --- | --- |
+| Horizonte externo | r₊ = M(1 + √(1 − χ²)) |
+| Horizonte interno | r₋ = M(1 − √(1 − χ²)) |
+| ISCO prógrado | Bardeen, Press & Teukolsky (1972) |
+| Esfera de fótons | r = 2M(1 + cos(⅔ arccos(−χ))) |
+
+**Resultado (χ = 1):** os quatro raios coincidem com GM/c² — **desvio
+0,0000000000 %** para Sgr A* e M87*, e a razão independe da massa.
+
+**Controles em χ = 0:** r₊/R_c = 2 · ISCO/R_c = 6 · fóton/R_c = 3 ·
+sombra/R_c = 3√3 = 5,196152 — todos conferem com os valores clássicos.
+
+| χ | r₊/R_c | ISCO/R_c |
+| --- | --- | --- |
+| 0,0 | 2,000000 | 6,000000 |
+| 0,5 | 1,866025 | 4,233003 |
+| 0,9 | 1,435890 | 2,320883 |
+| 0,99 | 1,141067 | 1,454498 |
+| **1,0** | **1,000000** | **1,000000** |
+
+---
+
+## O conjunto da tese
 
 | Peça | O que estabelece |
 | --- | --- |
@@ -242,18 +330,16 @@ Inversão estrutural da 46ª Forma, isolando o raio radial.
 | 41ª Forma | O tempo de evaporação, recuperado do estado |
 | 46ª Forma | A fração da vida percorrida — o registro do tempo |
 | **47ª Forma** | **O sentido do raio radial — a seta de fora para dentro** |
+| **48ª Forma** | **A velocidade da seta — a taxa de transformação** |
 
 A cadeia:
 
 $$
 v_a \downarrow \;\Rightarrow\; \Phi \uparrow \;\Rightarrow\; S_{max} \downarrow
 \;\Rightarrow\; v_a = 1 \;\Rightarrow\; \frac{t}{t_{evap}} \to 0
+\;\Rightarrow\; v_{seta} \to 0
 \;\Rightarrow\; \textbf{a seta para}
 $$
-
-### Status
-
-Forma registrada. Não apresenta calibração numérica.
 
 ---
 
@@ -261,8 +347,10 @@ Forma registrada. Não apresenta calibração numérica.
 
 > A seta do tempo não é propriedade do universo, mas da relação entre o sistema
 > e o fluxo. No estado canônico (vₐ = 1), o sistema não percorre trajetória — a
-> seta não o atinge. Fora dele, o tempo é o registro do desvio percorrido, e a
-> fração temporal coincide com a fração do teto entrópico consumido.
+> seta não o atinge.
+
+Fora dele, o tempo é o registro do desvio percorrido, e a fração temporal
+coincide com a fração do teto entrópico consumido.
 
 ---
 
@@ -271,8 +359,8 @@ Forma registrada. Não apresenta calibração numérica.
 A reatividade é o único termo que depende de nós. Reduzi-la eleva o fluxo
 disponível, reduz o teto entrópico e faz o tempo deixar de incidir.
 
-Não é preciso aumentar a geração de energia. É preciso reduzir o gasto. É a tese
-de *O Atemporal*, e é o que a 46ª Forma mede.
+Não é preciso aumentar a geração de energia.
+É preciso reduzir o gasto. É a tese de *O Atemporal*, e é o que a 46ª Forma mede.
 
 ---
 
@@ -291,8 +379,10 @@ A operação reaparece porque é estrutural, não circunstancial.
 
 ## O que ainda não está fechado
 
-**A assimetria temporal** — a forma da 46ª é simétrica em t. A seta aparece pela
-condição de domínio, não como derivada.
+**Calibração do par (k, λ) por domínio** — o núcleo relativístico está calibrado;
+os domínios restantes aguardam determinação. As três pendências conceituais estão
+resolvidas: a direção da entropia (9ª Forma), a correspondência com Prigogine, e
+a assimetria temporal (48ª Forma).
 
 ---
 
@@ -306,23 +396,25 @@ condição de domínio, não como derivada.
 | Extensão rotacional (A e B) | 01/10/2026 |
 | Energia angular e evolução espaço-temporal | 03/10/2026 |
 | Formas inversas 36ª a 45ª | 03/10/2026 |
-| **Tese da seta condicional e sentido radial (47ª)** | **03/10/2026 (este registro)** |
+| **Tese da seta condicional, taxa, velocidade e sentido radial (47ª e 48ª)** | **03/10/2026 (este registro)** |
+| **Dedução de k e λ no estado canônico** | **05/10/2026** |
 
 ---
 
 ## Repositórios relacionados
 
 - Inversão Estrutural:
-  [github.com](https://github.com/o-atemporal/structural-inversion)
+  [github.com/o-atemporal/structural-inversion](https://github.com/o-atemporal/structural-inversion)
 - Evolução Espaço-Temporal da Energia:
-  [github.com](https://github.com/o-atemporal/spacetime-energy-evolution)
+  [github.com/o-atemporal/spacetime-energy-evolution](https://github.com/o-atemporal/spacetime-energy-evolution)
 - Equações de Campo de Fluxo Inverso:
-  [github.com](https://github.com/o-atemporal/inverse-flow-field-equations)
-- Extensão Rotacional:
-  [github.com](https://github.com/o-atemporal/rotational-field-inverse-flow)
-- Telemetria para Inclinação Orbital e Redshift:
-  [github.com](https://github.com/o-atemporal/telemetria-orbital-redshift-metrica-kerr)
+  [github.com/o-atemporal/inverse-flow-field-equations](https://github.com/o-atemporal/inverse-flow-field-equations)
 
 ---
 
-Princípio da Proporcionalidade Inversa © 2026 [Antônio Marcos] — CC BY 4.0
+## Licença
+
+CC BY 4.0 — a comunidade de astrofísica independente, cientistas de dados e
+desenvolvedores está autorizada a compartilhar, adaptar e criar ferramentas
+derivadas, mantida a atribuição obrigatória ao projeto oficial
+**O Atemporal / Antônio Marcos (2026)**.
