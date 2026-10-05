@@ -263,91 +263,45 @@ $$
 com o expoente dado pela dimensão do domínio — **n = 1 no canônico,
 n = 2 no relativístico**.
 
----
+## Comparação com o modelo de fora
 
-## O raio e a identidade em função do spin
+### Por massa, no limite χ = 1
 
-Todo o cálculo se baseia na diferença entre o raio do ponto e o raio de
-Schwarzschild. O raio em relação ao spin é dado por:
-
-$$
-R(\chi) = \frac{R_s}{2}\left(1 + \sqrt{1-\chi^{2}}\right)
-\qquad\text{com}\qquad
-R_s = \frac{2GM}{c^{2}}
-$$
-
-E, em razão do raio de Schwarzschild:
-
-$$
-\frac{R}{R_s} = \frac{1}{2}\left(1 + \sqrt{1-\chi^{2}}\right)
-$$
-
-O limite é exato: em χ → 1, R → R_s/2 = GM/c² — o raio do estado canônico.
-
-Com o fluxo dado pela energia de repouso, Φ = Mc², a identidade de cada ponto
-acompanha o raio:
-
-$$
-k = R \cdot \Phi
-$$
-
-### Sgr A* — 4,3×10⁶ M☉
-
-| χ | R/R_s | R (m) | k = RΦ |
+| Massa | R_c Atemporal (m) | r₊ Kerr (m) | Desvio |
 | --- | --- | --- | --- |
-| 0,0 | 1,000000 | 1,270274e10 | 9,764324e63 |
-| 0,2 | 0,989898 | 1,257442e10 | 9,665685e63 |
-| 0,5 | 0,933013 | 1,185182e10 | 9,110239e63 |
-| 0,7 | 0,857071 | 1,088716e10 | 8,368723e63 |
-| 0,9 | 0,717945 | 9,119871e9 | 7,010247e63 |
-| 0,99 | 0,570534 | 7,247343e9 | 5,570876e63 |
-| 0,999 | 0,522355 | 6,635343e9 | 5,100445e63 |
-| **1,0** | **0,500000** | **6,351372e9** | **4,882162e63** |
+| 1 M_sol | 1,477e3 | 1,477e3 | 0,0000000000 % |
+| 10 M_sol | 1,477e4 | 1,477e4 | 0,0000000000 % |
+| 100 M_sol | 1,477e5 | 1,477e5 | 0,0000000000 % |
+| Sgr A* | 6,351e9 | 6,351e9 | 0,0000000000 % |
+| M87* | 9,601e12 | 9,601e12 | 0,0000000000 % |
 
-### M87* — 6,5×10⁹ M☉
+### O desvio é do limite, não da massa
 
-| χ | R/R_s | R (m) | k = RΦ |
-| --- | --- | --- | --- |
-| 0,0 | 1,000000 | 1,920182e13 | 2,231167e70 |
-| 0,2 | 0,989898 | 1,900784e13 | 2,208627e70 |
-| 0,5 | 0,933013 | 1,791554e13 | 2,081707e70 |
-| 0,7 | 0,857071 | 1,645733e13 | 1,912269e70 |
-| 0,9 | 0,717945 | 1,378585e13 | 1,601855e70 |
-| 0,99 | 0,570534 | 1,095529e13 | 1,272956e70 |
-| 0,999 | 0,522355 | 1,003017e13 | 1,165461e70 |
-| **1,0** | **0,500000** | **9,600911e12** | **1,115583e70** |
+A coincidência vale no limite de rotação extrema. Fora dele, o modelo dá o raio
+gravitacional puro e o horizonte de Kerr se afasta:
 
-### Leitura dos extremos
-
-| | χ = 0 (estático) | χ = 1 (extremo) |
+| χ | r₊/R_c | Desvio |
 | --- | --- | --- |
-| Raio | R_s = 2GM/c² | R_c = GM/c² |
-| Razão R/R_s | 1,000000 | 0,500000 |
-| k (Sgr A*) | 9,764324e63 | **4,882162e63** |
+| 0,0 | 2,000000 | +100,000000 % |
+| 0,5 | 1,866025 | +86,602540 % |
+| 0,9 | 1,435890 | +43,588989 % |
+| 0,99 | 1,141067 | +14,106724 % |
+| **1,0** | **1,000000** | **0,0000000000 %** |
 
-O valor de k no limite extremo coincide com a identidade do estado canônico,
-k_c = GM²/c² — para o Sgr A*, 4,882162e63.
+O desvio em χ = 0,9 é **+43,588989 %** — **idêntico para todas as massas**
+testadas (1, 10, 100 M_sol, Sgr A*, M87*). É um fator puro de spin: a razão
+r₊/R_c = 1 + √(1 − χ²) não contém a massa.
 
-**Fonte do raio.** A relação R(χ) é a do horizonte externo de Kerr,
-r₊ = (GM/c²)(1 + √(1 − χ²)), escrita em razão ao raio de Schwarzschild. Nenhum
-valor é ajustado: o raio de cada ponto vem de fórmula publicada, e a identidade
-é obtida pela relação k = RΦ.
+### Leitura
 
-### Termos de verificação
+No limite de rotação extrema o raio do modelo coincide com o horizonte externo
+de Kerr, com o ISCO e com a esfera de fótons — os quatro convergem para GM/c².
+Fora do extremo, o modelo mantém o raio gravitacional enquanto o horizonte de
+Kerr cresce, e a diferença é o termo de rotação (1 + √(1 − χ²)).
 
-| Massa | R_c (m) | Φ (J) | k_c = GM²/c² |
-| --- | --- | --- | --- |
-| 1 M_sol | 1,477e3 | 1,788e47 | 2,938e33 |
-| 10 M_sol | 1,477e4 | 1,788e48 | 2,938e35 |
-| 100 M_sol | 1,477e5 | 1,788e49 | 2,938e37 |
-| Sgr A* | 6,351e9 | 7,687e53 | 5,432e46 |
-| M87* | 9,601e12 | 1,162e57 | 1,241e53 |
-
-**Escala com a massa.** k(2M)/k(M) = 4,000000 · k(3M)/k(M) = 9,000000 —
-verificado.
 
 **Dimensão de k_c.** Massa × comprimento (kg·m).
-
+---
 ### Os dois troncos
 
 | Tronco | Origem | k | Escala com M |
@@ -449,10 +403,11 @@ A operação reaparece porque é estrutural, não circunstancial.
 
 ## O que ainda não está fechado
 
-**Calibração do par (k, λ) por domínio** — o núcleo relativístico está calibrado;
-os domínios restantes aguardam determinação. As três pendências conceituais estão
-resolvidas: a direção da entropia (9ª Forma), a correspondência com Prigogine, e
-a assimetria temporal (48ª Forma).
+**A transformação da identidade ao longo da vida do sistema** — no estado
+canônico o par está determinado: λ = 1 e k_c = GM²/c², obtidos algebricamente. O que resta é a variação da identidade k quando o raio cresce.
+
+As três pendências conceituais estão resolvidas: a direção da entropia (9ª Forma),
+a correspondência com Prigogine, e a assimetria temporal (48ª Forma).
 
 ---
 
