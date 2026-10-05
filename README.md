@@ -403,10 +403,12 @@ A operação reaparece porque é estrutural, não circunstancial.
 
 ## O que ainda não está fechado
 
-**Calibração do par (k, λ) por domínio** — o núcleo relativístico está calibrado;
-os domínios restantes aguardam determinação. As três pendências conceituais estão
-resolvidas: a direção da entropia (9ª Forma), a correspondência com Prigogine, e
-a assimetria temporal (48ª Forma).
+**A transformação da identidade ao longo da vida do sistema** — no estado
+canônico o par está determinado: λ = 1 e k_c = GM²/c², obtidos algebricamente,
+sem valor calibrado. O que resta é a variação da identidade quando o raio decai.
+
+As três pendências conceituais estão resolvidas: a direção da entropia (9ª Forma),
+a correspondência com Prigogine, e a assimetria temporal (48ª Forma).
 
 ---
 
