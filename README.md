@@ -119,6 +119,110 @@ $$
 
 **A fração temporal e a fração entrópica medem o mesmo avanço por dois caminhos.**
 
+| Grandeza | O que mede | Como é obtida |
+| --- | --- | --- |
+| t/t_evap | Fração da vida percorrida | 41ª com inversão estrutural |
+| S/S_max | Fração do teto entrópico consumido | 9ª Forma |
+
+### Direção da entropia
+
+A entropia **diminui com o fluxo**, e **estaciona** no estado canônico:
+
+| Fluxo | Entropia |
+| --- | --- |
+| Φ pequeno | S_max alto |
+| Φ cresce | S_max decresce |
+| vₐ = 1 | **A entropia para** |
+
+Isso fecha a correspondência com a tese: no estado canônico não há avanço de
+tempo **nem** de entropia — os dois param juntos, porque vêm da mesma relação.
+
+### Cadeia de inferência
+
+$$
+\text{estado} \;\longrightarrow\; \frac{t}{t_{evap}} \;\longrightarrow\; t_{evap} \;\longrightarrow\; \frac{S}{S_{max}}
+$$
+
+---
+
+## Por que isso responde a Prigogine
+
+| Prigogine | Esta formulação |
+| --- | --- |
+| A seta é propriedade das leis | A seta é propriedade da **relação** |
+| Irreversibilidade universal | Irreversibilidade **condicional** |
+| Precisa de lei assimétrica | Não precisa — basta que a relação tenha um ponto de anulação |
+| O tempo é produzido pela estrutura | O tempo **incide** onde há desvio |
+
+A seta não é do universo. É da relação entre o sistema e o fluxo — e essa
+relação tem um ponto em que **cessa**: o estado canônico.
+
+---
+
+## A taxa da seta
+
+A produção é o decaimento da identidade do sistema. Não o teto entrópico
+(9ª Forma), mas a sua **taxa**.
+
+---
+
+## Verificação em buracos negros em rotação
+
+No limite de rotação extrema, quatro grandezas convergem no mesmo ponto:
+
+| Grandeza | Comportamento |
+| --- | --- |
+| vₐ | Tende ao teto relativístico |
+| Entropia | Mínima, estacionária |
+| Raio de Schwarzschild | Mínimo para a massa |
+| Seta do tempo | Parada |
+
+**Coerência com Kerr:** no buraco negro de Kerr extremo, o horizonte externo
+aproxima-se do interno e a área total diminui — e, como a entropia de Bekenstein
+é proporcional à área, ela também diminui. A velocidade angular do horizonte
+tende ao máximo, e não há mais limite estático: o observador é arrastado.
+
+A forma reproduz o comportamento de Kerr pelo lado da entropia — entropia mínima
+em rotação máxima — e acrescenta o que Kerr não diz: é ali que a seta para.
+
+---
+
+## Aplicação ao sistema de Kerr — o limite canônico
+
+No limite de rotação extrema, com vₐ = 1, R mínimo e fluxo máximo:
+
+$$
+k = \Phi
+$$
+
+A identidade do sistema iguala-se ao fluxo disponível. Não há mais decaimento
+de k — porque não há mais vₐ·R a consumi-lo. O sistema está em equilíbrio
+consigo mesmo.
+
+| Grandeza | No limite canônico |
+| --- | --- |
+| vₐ | 1 — o termo se absorve |
+| R | mínimo |
+| Φ | máximo |
+| S_max | mínimo, estacionário |
+| k | = Φ |
+| Seta | parada |
+
+**Coerência com Kerr:**
+
+| Kerr extremo | Esta forma |
+| --- | --- |
+| Horizonte externo → interno | R mínimo |
+| Área total mínima | S_max mínimo |
+| Velocidade angular máxima | Φ máximo |
+
+Fora do extremo, a taxa de avanço é positiva e a seta corre — quanto maior a
+reatividade, mais rápido o sistema percorre a trajetória.
+
+### Fonte
+
+Inversão estrutural da 46ª Forma, isolando o raio radial.
+
 ---
 
 ## 48ª Forma — A Velocidade da Seta
@@ -181,15 +285,41 @@ $$
 
 A seta deixa de ser direção e passa a ser **velocidade**.
 
-| Momento | O que ocorre |
+| Leitura | Escrita | O que significa |
+| --- | --- | --- |
+| Pelo produto | v_seta ∝ vₐ·R | Reatividade × resistência |
+| Pela identidade | v_seta ∝ k/Φ | O decaimento de k |
+
+| Termo da derivada | Papel |
 | --- | --- |
-| Início (t = 0) | O fator de desvanecimento é máximo; a velocidade atinge seu ápice |
-| Meio | Conforme t avança, o fator diminui e o tempo desacelera |
-| Fim (t → t_evap) | O fator tende a zero e a velocidade se anula — o tempo para |
+| 3 / t_evap | Escala temporal do sistema |
+| u² | Termo estrutural ao quadrado |
+| (1 − t/t_evap) | Fator de desvanecimento |
 
-### Fonte
+### Os regimes
 
-Derivada da 46ª Forma, com o raio radial decaindo segundo a lei de Hawking.
+| Região | vₐ·R | v_seta | Estado |
+| --- | --- | --- | --- |
+| Borda / início | máximo | máximo | A seta corre |
+| Meio da vida | decrescente | decrescente | O tempo desacelera |
+| Fim (t → t_evap) | → 0 | → 0 — a seta para | Equilíbrio |
+
+### Limite canônico
+
+$$
+v_a = 1, \; R \to R_{min} \;\Longrightarrow\; v_{seta} \to 0, \; k = \Phi
+$$
+
+No extremo, a identidade iguala-se ao fluxo. Não há mais transformação, e a seta para.
+
+### Aplicação ao sistema de Kerr
+
+| Grandeza | Borda | Centro / Kerr extremo |
+| --- | --- | --- |
+| Raio | R_s = 2GM/c² | R_c = GM/c² |
+| vₐ·R | máximo | mínimo |
+| k | máximo | mínimo |
+| Seta | corre | para |
 
 ### Status
 
@@ -263,45 +393,46 @@ $$
 com o expoente dado pela dimensão do domínio — **n = 1 no canônico,
 n = 2 no relativístico**.
 
-## Comparação com o modelo de fora
+### Verificação do raio
 
-### Por massa, no limite χ = 1
+O raio do Passo 2 é conferível contra fórmulas publicadas, de fora do modelo:
 
-| Massa | R_c Atemporal (m) | r₊ Kerr (m) | Desvio |
-| --- | --- | --- | --- |
-| 1 M_sol | 1,477e3 | 1,477e3 | 0,0000000000 % |
-| 10 M_sol | 1,477e4 | 1,477e4 | 0,0000000000 % |
-| 100 M_sol | 1,477e5 | 1,477e5 | 0,0000000000 % |
-| Sgr A* | 6,351e9 | 6,351e9 | 0,0000000000 % |
-| M87* | 9,601e12 | 9,601e12 | 0,0000000000 % |
+| Raio | Fórmula (G = c = 1) |
+| --- | --- |
+| Horizonte externo | r₊ = M(1 + √(1 − χ²)) |
+| Horizonte interno | r₋ = M(1 − √(1 − χ²)) |
+| ISCO prógrado | Bardeen, Press & Teukolsky (1972) |
+| Esfera de fótons | r = 2M(1 + cos(⅔ arccos(−χ))) |
 
-### O desvio é do limite, não da massa
+**Resultado (χ = 1):** os quatro raios coincidem com GM/c² — **desvio
+0,0000000000 %** para Sgr A* e M87*, e a razão independe da massa.
 
-A coincidência vale no limite de rotação extrema. Fora dele, o modelo dá o raio
-gravitacional puro e o horizonte de Kerr se afasta:
+**Controles em χ = 0:** r₊/R_c = 2 · ISCO/R_c = 6 · fóton/R_c = 3 ·
+sombra/R_c = 3√3 = 5,196152 — todos conferem com os valores clássicos.
 
-| χ | r₊/R_c | Desvio |
+| χ | r₊/R_c | ISCO/R_c |
 | --- | --- | --- |
-| 0,0 | 2,000000 | +100,000000 % |
-| 0,5 | 1,866025 | +86,602540 % |
-| 0,9 | 1,435890 | +43,588989 % |
-| 0,99 | 1,141067 | +14,106724 % |
-| **1,0** | **1,000000** | **0,0000000000 %** |
+| 0,0 | 2,000000 | 6,000000 |
+| 0,5 | 1,866025 | 4,233003 |
+| 0,9 | 1,435890 | 2,320883 |
+| 0,99 | 1,141067 | 1,454498 |
+| **1,0** | **1,000000** | **1,000000** |
 
-O desvio em χ = 0,9 é **+43,588989 %** — **idêntico para todas as massas**
-testadas (1, 10, 100 M_sol, Sgr A*, M87*). É um fator puro de spin: a razão
-r₊/R_c = 1 + √(1 − χ²) não contém a massa.
+### Termos de verificação
 
-### Leitura
+| Massa | R_c (m) | Φ (J) | k_c = GM²/c² |
+| --- | --- | --- | --- |
+| 1 M_sol | 1,477e3 | 1,788e47 | 2,938e33 |
+| 10 M_sol | 1,477e4 | 1,788e48 | 2,938e35 |
+| 100 M_sol | 1,477e5 | 1,788e49 | 2,938e37 |
+| Sgr A* | 6,351e9 | 7,687e53 | 5,432e46 |
+| M87* | 9,601e12 | 1,162e57 | 1,241e53 |
 
-No limite de rotação extrema o raio do modelo coincide com o horizonte externo
-de Kerr, com o ISCO e com a esfera de fótons — os quatro convergem para GM/c².
-Fora do extremo, o modelo mantém o raio gravitacional enquanto o horizonte de
-Kerr cresce, e a diferença é o termo de rotação (1 + √(1 − χ²)).
-
+**Escala com a massa.** k(2M)/k(M) = 4,000000 · k(3M)/k(M) = 9,000000 —
+verificado.
 
 **Dimensão de k_c.** Massa × comprimento (kg·m).
----
+
 ### Os dois troncos
 
 | Tronco | Origem | k | Escala com M |
@@ -316,6 +447,76 @@ $$
 $$
 
 — o cubo do tempo característico da massa, verificado nas cinco massas.
+
+---
+
+## O raio e a identidade em função do spin
+
+Todo o cálculo se baseia na diferença entre o raio do ponto e o raio de
+Schwarzschild. O raio em relação ao spin é dado por:
+
+$$
+R(\chi) = \frac{R_s}{2}\left(1 + \sqrt{1-\chi^{2}}\right)
+\qquad\text{com}\qquad
+R_s = \frac{2GM}{c^{2}}
+$$
+
+E, em razão do raio de Schwarzschild:
+
+$$
+\frac{R}{R_s} = \frac{1}{2}\left(1 + \sqrt{1-\chi^{2}}\right)
+$$
+
+O limite é exato: em χ → 1, R → R_s/2 = GM/c² — o raio do estado canônico.
+
+Com o fluxo dado pela energia de repouso, Φ = Mc², a identidade de cada ponto
+acompanha o raio:
+
+$$
+k = R \cdot \Phi
+$$
+
+### Sgr A* — 4,3×10⁶ M☉
+
+| χ | R/R_s | R (m) | k = RΦ |
+| --- | --- | --- | --- |
+| 0,0 | 1,000000 | 1,270274e10 | 9,764324e63 |
+| 0,2 | 0,989898 | 1,257442e10 | 9,665685e63 |
+| 0,5 | 0,933013 | 1,185182e10 | 9,110239e63 |
+| 0,7 | 0,857071 | 1,088716e10 | 8,368723e63 |
+| 0,9 | 0,717945 | 9,119871e9 | 7,010247e63 |
+| 0,99 | 0,570534 | 7,247343e9 | 5,570876e63 |
+| 0,999 | 0,522355 | 6,635343e9 | 5,100445e63 |
+| **1,0** | **0,500000** | **6,351372e9** | **4,882162e63** |
+
+### M87* — 6,5×10⁹ M☉
+
+| χ | R/R_s | R (m) | k = RΦ |
+| --- | --- | --- | --- |
+| 0,0 | 1,000000 | 1,920182e13 | 2,231167e70 |
+| 0,2 | 0,989898 | 1,900784e13 | 2,208627e70 |
+| 0,5 | 0,933013 | 1,791554e13 | 2,081707e70 |
+| 0,7 | 0,857071 | 1,645733e13 | 1,912269e70 |
+| 0,9 | 0,717945 | 1,378585e13 | 1,601855e70 |
+| 0,99 | 0,570534 | 1,095529e13 | 1,272956e70 |
+| 0,999 | 0,522355 | 1,003017e13 | 1,165461e70 |
+| **1,0** | **0,500000** | **9,600911e12** | **1,115583e70** |
+
+### Leitura dos extremos
+
+| | χ = 0 (estático) | χ = 1 (extremo) |
+| --- | --- | --- |
+| Raio | R_s = 2GM/c² | R_c = GM/c² |
+| Razão R/R_s | 1,000000 | 0,500000 |
+| k (Sgr A*) | 9,764324e63 | **4,882162e63** |
+
+O valor de k no limite extremo coincide com a identidade do estado canônico,
+k_c = GM²/c² — para o Sgr A*, 4,882162e63.
+
+**Fonte do raio.** A relação R(χ) é a do horizonte externo de Kerr,
+r₊ = (GM/c²)(1 + √(1 − χ²)), escrita em razão ao raio de Schwarzschild. Nenhum
+valor é ajustado: o raio de cada ponto vem de fórmula publicada, e a identidade
+é obtida pela relação k = RΦ.
 
 ---
 
@@ -343,6 +544,36 @@ sombra/R_c = 3√3 = 5,196152 — todos conferem com os valores clássicos.
 | 0,9 | 1,435890 | 2,320883 |
 | 0,99 | 1,141067 | 1,454498 |
 | **1,0** | **1,000000** | **1,000000** |
+
+### Termos de verificação
+
+| Massa | R_c (m) | Φ (J) | k_c = GM²/c² |
+| --- | --- | --- | --- |
+| 1 M_sol | 1,477e3 | 1,788e47 | 2,938e33 |
+| 10 M_sol | 1,477e4 | 1,788e48 | 2,938e35 |
+| 100 M_sol | 1,477e5 | 1,788e49 | 2,938e37 |
+| Sgr A* | 6,351e9 | 7,687e53 | 5,432e46 |
+| M87* | 9,601e12 | 1,162e57 | 1,241e53 |
+
+**Escala com a massa.** k(2M)/k(M) = 4,000000 · k(3M)/k(M) = 9,000000 —
+verificado.
+
+**Dimensão de k_c.** Massa × comprimento (kg·m).
+
+### Os dois troncos
+
+| Tronco | Origem | k | Escala com M |
+| --- | --- | --- | --- |
+| Relativístico | 2ª Forma (expoente radial 2) | c⁷/(4G²M) | ∝ M⁻¹ |
+| **Canônico** | **5ª Forma (vₐ = 1)** | **GM²/c²** | **∝ M²** |
+
+A razão entre as duas identidades:
+
+$$
+\frac{k_c}{k_{rel}} = \frac{4G^{3}M^{3}}{c^{9}} = 4\left(\frac{GM}{c^{3}}\right)^{3}
+$$
+
+— o cubo do tempo característico da massa, verificado nas cinco massas.
 
 ---
 
@@ -404,7 +635,8 @@ A operação reaparece porque é estrutural, não circunstancial.
 ## O que ainda não está fechado
 
 **A transformação da identidade ao longo da vida do sistema** — no estado
-canônico o par está determinado: λ = 1 e k_c = GM²/c², obtidos algebricamente. O que resta é a variação da identidade k quando o raio cresce.
+canônico o par está determinado: λ = 1 e k_c = GM²/c², obtidos algebricamente.
+O que resta é a variação da identidade k quando o raio cresce.
 
 As três pendências conceituais estão resolvidas: a direção da entropia (9ª Forma),
 a correspondência com Prigogine, e a assimetria temporal (48ª Forma).
@@ -422,7 +654,7 @@ a correspondência com Prigogine, e a assimetria temporal (48ª Forma).
 | Energia angular e evolução espaço-temporal | 03/10/2026 |
 | Formas inversas 36ª a 45ª | 03/10/2026 |
 | **Tese da seta condicional, taxa, velocidade e sentido radial (47ª e 48ª)** | **03/10/2026 (este registro)** |
-| **Dedução de k e λ no estado canônico** | **05/10/2026** |
+| **Dedução de k e λ e mapeamento do raio por spin** | **05/10/2026** |
 
 ---
 
