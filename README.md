@@ -332,38 +332,21 @@ k_c = GM²/c² — para o Sgr A*, 4,882162e63.
 r₊ = (GM/c²)(1 + √(1 − χ²)), escrita em razão ao raio de Schwarzschild. Nenhum
 valor é ajustado: o raio de cada ponto vem de fórmula publicada, e a identidade
 é obtida pela relação k = RΦ.
----
-## Comparação com o modelo de fora
 
-### Por massa, no limite χ = 1
+### Termos de verificação
 
-| Massa | R_c Atemporal (m) | r₊ Kerr (m) | Desvio |
+| Massa | R_c (m) | Φ (J) | k_c = GM²/c² |
 | --- | --- | --- | --- |
-| 1 M_sol | 1,477e3 | 1,477e3 | 0,0000000000 % |
-| 10 M_sol | 1,477e4 | 1,477e4 | 0,0000000000 % |
-| 100 M_sol | 1,477e5 | 1,477e5 | 0,0000000000 % |
-| Sgr A* | 6,351e9 | 6,351e9 | 0,0000000000 % |
-| M87* | 9,601e12 | 9,601e12 | 0,0000000000 % |
+| 1 M_sol | 1,477e3 | 1,788e47 | 2,938e33 |
+| 10 M_sol | 1,477e4 | 1,788e48 | 2,938e35 |
+| 100 M_sol | 1,477e5 | 1,788e49 | 2,938e37 |
+| Sgr A* | 6,351e9 | 7,687e53 | 5,432e46 |
+| M87* | 9,601e12 | 1,162e57 | 1,241e53 |
 
-### O desvio é do limite, não da massa
+**Escala com a massa.** k(2M)/k(M) = 4,000000 · k(3M)/k(M) = 9,000000 —
+verificado.
 
-A coincidência vale no limite de rotação extrema. Fora dele, o modelo dá o raio
-gravitacional puro e o horizonte de Kerr se afasta:
-
-| χ | r₊/R_c | Desvio |
-| --- | --- | --- |
-| 0,0 | 2,000000 | +100,000000 % |
-| 0,5 | 1,866025 | +86,602540 % |
-| 0,9 | 1,435890 | +43,588989 % |
-| 0,99 | 1,141067 | +14,106724 % |
-| **1,0** | **1,000000** | **0,0000000000 %** |
-
-O desvio em χ = 0,9 é **+43,588989 %** — **idêntico para todas as massas**
-testadas (1, 10, 100 M_sol, Sgr A*, M87*). É um fator puro de spin: a razão
-r₊/R_c = 1 + √(1 − χ²) não contém a massa.
-
-
----
+**Dimensão de k_c.** Massa × comprimento (kg·m).
 
 ### Os dois troncos
 
