@@ -474,6 +474,162 @@ As três pendências conceituais estão resolvidas: a direção da entropia (9ª
 a correspondência com Prigogine, e a assimetria temporal (48ª Forma).
 
 ---
+# Dedução de k e λ — O Estado Canônico
+
+**O Atemporal · Antônio Marcos · 05 de outubro de 2026 · CC BY 4.0**
+
+---
+
+## Partida — a 5ª Forma
+
+No estado canônico, com a velocidade de reatividade no valor unitário:
+
+$$
+V_a = 1
+$$
+
+a 5ª Forma se reduz a:
+
+$$
+R_c = \lambda\,\frac{k}{\Phi}
+$$
+
+---
+
+## Passo 1 — o fluxo
+
+$$
+\Phi = Mc^{2}
+$$
+
+---
+
+## Passo 2 — o raio no centro
+
+No centro do disco, no limite de rotação extrema, o raio característico é o
+raio gravitacional:
+
+$$
+R_c = \frac{GM}{c^{2}}
+$$
+
+**Verificável contra a métrica de Kerr:** no limite $$\chi \to 1$$, o horizonte
+externo $$r_+$$, o horizonte interno $$r_-$$, o ISCO (Bardeen, Press &
+Teukolsky 1972) e a esfera de fótons (Bardeen 1972) convergem todos para
+$$GM/c^{2}$$.
+
+---
+
+## Passo 3 — substituição
+
+$$
+\frac{GM}{c^{2}} = \lambda\,\frac{k}{Mc^{2}}
+$$
+
+---
+
+## Passo 4 — o produto
+
+Multiplicando os dois lados por $$Mc^{2}$$:
+
+$$
+\boxed{\;\lambda\,k = \frac{GM^{2}}{c^{2}}\;}
+$$
+
+O fator $$c^{2}$$ cancela. O produto sai **algébrico** — nenhum valor calibrado
+entra na dedução.
+
+---
+
+## Passo 5 — o seletor
+
+No estado canônico, o fator de escala é unitário:
+
+$$
+\lambda = 1
+$$
+
+---
+
+## Passo 6 — a identidade
+
+$$
+\boxed{\;k_c = \frac{GM^{2}}{c^{2}}\;}
+$$
+
+---
+
+## Dependência por raio
+
+A 31ª Forma registra a inversão estrutural, que sobe o fluxo ao numerador:
+
+$$
+R_c = \lambda\left(\frac{\Phi+\varepsilon}{k}\right)^{1/n}
+$$
+
+Invertendo, cada raio tem a sua identidade própria:
+
+$$
+\boxed{\;k = (\Phi+\varepsilon)\left(\frac{\lambda}{R_c}\right)^{n}\;}
+$$
+
+O expoente é a dimensão do domínio: **$$n = 1$$ no canônico, $$n = 2$$ no
+relativístico**.
+
+---
+
+## Os dois troncos
+
+| Tronco | Origem | $$k$$ | Escala com $$M$$ |
+| --- | --- | --- | --- |
+| Relativístico | 2ª Forma (expoente radial 2) | $$\dfrac{c^{7}}{4G^{2}M}$$ | $$\propto M^{-1}$$ |
+| **Canônico** | **5ª Forma ($$V_a = 1$$)** | **$$\dfrac{GM^{2}}{c^{2}}$$** | **$$\propto M^{2}$$** |
+
+A razão entre as duas identidades:
+
+$$
+\frac{k_c}{k_{rel}} = \frac{4G^{3}M^{3}}{c^{9}} = 4\left(\frac{GM}{c^{3}}\right)^{3}
+$$
+
+— o cubo do tempo característico da massa.
+
+---
+
+## Termos de verificação
+
+| Massa | $$R_c$$ (m) | $$\Phi$$ (J) | $$k_c = \dfrac{GM^{2}}{c^{2}}$$ |
+| --- | --- | --- | --- |
+| 1 $$M_\odot$$ | 1,477e3 | 1,788e47 | 2,938e33 |
+| 10 $$M_\odot$$ | 1,477e4 | 1,788e48 | 2,938e35 |
+| 100 $$M_\odot$$ | 1,477e5 | 1,788e49 | 2,938e37 |
+| Sgr A\* | 6,351e9 | 7,687e53 | 5,432e46 |
+| M87\* | 9,601e12 | 1,162e57 | 1,241e53 |
+
+**Escala com a massa.** $$\dfrac{k(2M)}{k(M)} = 4{,}000000$$ ·
+$$\dfrac{k(3M)}{k(M)} = 9{,}000000$$ — verificado.
+
+**Desvio contra a métrica de Kerr.** $$0{,}0000000000\,\%$$ no limite
+$$\chi = 1$$.
+
+**Dimensão de $$k_c$$.** Massa × comprimento (kg·m).
+
+---
+
+## Status
+
+$$k$$ e $$\lambda$$ são **consequência algébrica** da forma canônica e do raio
+característico de Kerr. Nenhum dos dois exige calibração para ser obtido — o
+produto sai do Passo 4 e o seletor sai do Passo 5.
+
+> **Em aberto.** A calibração do par $$(\lambda,\varepsilon)$$ no domínio onde
+> $$z = 1$$, e a transformação da identidade ao longo da vida do sistema.
+
+---
+
+*Princípio da Proporcionalidade Inversa, 2026, Antônio Marcos.
+Creative Commons Attribution 4.0 International.*
+
+---
 
 ## Precedência
 
