@@ -363,7 +363,7 @@ testadas (1, 10, 100 M_sol, Sgr A*, M87*). É um fator puro de spin: a razão
 r₊/R_c = 1 + √(1 − χ²) não contém a massa.
 
 
-
+---
 
 ### Os dois troncos
 
