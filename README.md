@@ -478,29 +478,60 @@ $$
 
 ### Sgr A* — 4,3×10⁶ M☉
 
-| χ | R/R_s | R (m) | k = RΦ |
-| --- | --- | --- | --- |
-| 0,0 | 1,000000 | 1,270274e10 | 9,764324e63 |
-| 0,2 | 0,989898 | 1,257442e10 | 9,665685e63 |
-| 0,5 | 0,933013 | 1,185182e10 | 9,110239e63 |
-| 0,7 | 0,857071 | 1,088716e10 | 8,368723e63 |
-| 0,9 | 0,717945 | 9,119871e9 | 7,010247e63 |
-| 0,99 | 0,570534 | 7,247343e9 | 5,570876e63 |
-| 0,999 | 0,522355 | 6,635343e9 | 5,100445e63 |
-| **1,0** | **0,500000** | **6,351372e9** | **4,882162e63** |
+| χ | R/R_s | O que diz |
+| --- | --- | --- |
+| 0,0 | 1,000 | O raio é o de Schwarzschild |
+| 0,5 | 0,933 | Encolheu 7% |
+| 0,9 | 0,718 | Encolheu 28% |
+| 0,99 | 0,571 | Encolheu 43% |
+| **1,0** | **0,500** | **Metade — o raio canônico** |
+
+O spin encolhe o raio, de R_s até R_s/2. O valor absoluto correspondente, para o
+Sgr A*:
+
+| χ | R (m) |
+| --- | --- |
+| 0,0 | 1,270274e10 |
+| 0,5 | 1,185182e10 |
+| 0,9 | 9,119871e9 |
+| **1,0** | **6,351372e9** |
+
+E a identidade em cada ponto:
+
+| χ | k = RΦ (Sgr A*) | k/k₀ |
+| --- | --- | --- |
+| 0,0 | 9,764324e63 | 1,000000 |
+| 0,5 | 9,110239e63 | 0,933013 |
+| 0,9 | 7,010247e63 | 0,717945 |
+| **1,0** | **4,882162e63** | **0,500000** |
 
 ### M87* — 6,5×10⁹ M☉
 
-| χ | R/R_s | R (m) | k = RΦ |
-| --- | --- | --- | --- |
-| 0,0 | 1,000000 | 1,920182e13 | 2,231167e70 |
-| 0,2 | 0,989898 | 1,900784e13 | 2,208627e70 |
-| 0,5 | 0,933013 | 1,791554e13 | 2,081707e70 |
-| 0,7 | 0,857071 | 1,645733e13 | 1,912269e70 |
-| 0,9 | 0,717945 | 1,378585e13 | 1,601855e70 |
-| 0,99 | 0,570534 | 1,095529e13 | 1,272956e70 |
-| 0,999 | 0,522355 | 1,003017e13 | 1,165461e70 |
-| **1,0** | **0,500000** | **9,600911e12** | **1,115583e70** |
+| χ | R/R_s | O que diz |
+| --- | --- | --- |
+| 0,0 | 1,000 | O raio é o de Schwarzschild |
+| 0,5 | 0,933 | Encolheu 7% |
+| 0,9 | 0,718 | Encolheu 28% |
+| 0,99 | 0,571 | Encolheu 43% |
+| **1,0** | **0,500** | **Metade — o raio canônico** |
+
+Valores absolutos:
+
+| χ | R (m) |
+| --- | --- |
+| 0,0 | 1,920182e13 |
+| 0,5 | 1,791554e13 |
+| 0,9 | 1,378585e13 |
+| **1,0** | **9,600911e12** |
+
+Identidade:
+
+| χ | k = RΦ (M87*) | k/k₀ |
+| --- | --- | --- |
+| 0,0 | 2,231167e70 | 1,000000 |
+| 0,5 | 2,081707e70 | 0,933013 |
+| 0,9 | 1,601855e70 | 0,717945 |
+| **1,0** | **1,115583e70** | **0,500000** |
 
 ### Leitura dos extremos
 
@@ -512,6 +543,28 @@ $$
 
 O valor de k no limite extremo coincide com a identidade do estado canônico,
 k_c = GM²/c² — para o Sgr A*, 4,882162e63.
+
+### Comparação com a métrica de Kerr
+
+Cada linha da tabela tem um valor de fora, para conferência:
+
+| χ | R modelo / GM·c⁻² | r₊ Kerr / GM·c⁻² | Desvio |
+| --- | --- | --- | --- |
+| 0,0 | 2,000000 | 2,000000 | 0,0000000000 % |
+| 0,5 | 1,866025 | 1,866025 | 0,0000000000 % |
+| 0,9 | 1,435890 | 1,435890 | 0,0000000000 % |
+| 0,99 | 1,141067 | 1,141067 | 0,0000000000 % |
+| **1,0** | **1,000000** | **1,000000** | **0,0000000000 %** |
+
+O modelo coincide com o horizonte externo de Kerr em **todo o intervalo de
+spin** — não apenas no extremo. A coincidência é a mesma razão escrita nos dois
+lados:
+
+$$
+R(\chi) = \frac{R_s}{2}\left(1+\sqrt{1-\chi^{2}}\right)
+\qquad\longleftrightarrow\qquad
+r_+(\chi) = \frac{GM}{c^{2}}\left(1+\sqrt{1-\chi^{2}}\right)
+$$
 
 **Fonte do raio.** A relação R(χ) é a do horizonte externo de Kerr,
 r₊ = (GM/c²)(1 + √(1 − χ²)), escrita em razão ao raio de Schwarzschild. Nenhum
