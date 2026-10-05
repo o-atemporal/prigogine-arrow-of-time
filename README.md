@@ -476,62 +476,19 @@ $$
 k = R \cdot \Phi
 $$
 
-### Sgr A* — 4,3×10⁶ M☉
-
-| χ | R/R_s | O que diz |
-| --- | --- | --- |
-| 0,0 | 1,000 | O raio é o de Schwarzschild |
-| 0,5 | 0,933 | Encolheu 7% |
-| 0,9 | 0,718 | Encolheu 28% |
-| 0,99 | 0,571 | Encolheu 43% |
-| **1,0** | **0,500** | **Metade — o raio canônico** |
-
-O spin encolhe o raio, de R_s até R_s/2. O valor absoluto correspondente, para o
-Sgr A*:
-
-| χ | R (m) |
-| --- | --- |
-| 0,0 | 1,270274e10 |
-| 0,5 | 1,185182e10 |
-| 0,9 | 9,119871e9 |
-| **1,0** | **6,351372e9** |
-
-E a identidade em cada ponto:
-
-| χ | k = RΦ (Sgr A*) | k/k₀ |
-| --- | --- | --- |
-| 0,0 | 9,764324e63 | 1,000000 |
-| 0,5 | 9,110239e63 | 0,933013 |
-| 0,9 | 7,010247e63 | 0,717945 |
-| **1,0** | **4,882162e63** | **0,500000** |
-
 ### M87* — 6,5×10⁹ M☉
 
-| χ | R/R_s | O que diz |
-| --- | --- | --- |
-| 0,0 | 1,000 | O raio é o de Schwarzschild |
-| 0,5 | 0,933 | Encolheu 7% |
-| 0,9 | 0,718 | Encolheu 28% |
-| 0,99 | 0,571 | Encolheu 43% |
-| **1,0** | **0,500** | **Metade — o raio canônico** |
+| χ | R/R_s | R (m) | k = RΦ | k/k₀ |
+| --- | --- | --- | --- | --- |
+| 0,0 | 1,000000 | 1,920182e13 | 2,231167e70 | 1,000000 |
+| 0,5 | 0,933013 | 1,791554e13 | 2,081707e70 | 0,933013 |
+| 0,9 | 0,717945 | 1,378585e13 | 1,601855e70 | 0,717945 |
+| 0,99 | 0,570534 | 1,095529e13 | 1,272956e70 | 0,570534 |
+| **1,0** | **0,500000** | **9,600911e12** | **1,115583e70** | **0,500000** |
 
-Valores absolutos:
-
-| χ | R (m) |
-| --- | --- |
-| 0,0 | 1,920182e13 |
-| 0,5 | 1,791554e13 |
-| 0,9 | 1,378585e13 |
-| **1,0** | **9,600911e12** |
-
-Identidade:
-
-| χ | k = RΦ (M87*) | k/k₀ |
-| --- | --- | --- |
-| 0,0 | 2,231167e70 | 1,000000 |
-| 0,5 | 2,081707e70 | 0,933013 |
-| 0,9 | 1,601855e70 | 0,717945 |
-| **1,0** | **1,115583e70** | **0,500000** |
+O spin encolhe o raio de R_s até R_s/2, e a identidade acompanha na mesma
+proporção — as colunas R/R_s e k/k₀ são idênticas, porque k = RΦ e Φ é constante
+para o objeto.
 
 ### Leitura dos extremos
 
@@ -539,10 +496,10 @@ Identidade:
 | --- | --- | --- |
 | Raio | R_s = 2GM/c² | R_c = GM/c² |
 | Razão R/R_s | 1,000000 | 0,500000 |
-| k (Sgr A*) | 9,764324e63 | **4,882162e63** |
+| k (M87*) | 2,231167e70 | **1,115583e70** |
 
 O valor de k no limite extremo coincide com a identidade do estado canônico,
-k_c = GM²/c² — para o Sgr A*, 4,882162e63.
+k_c = GM²/c² — para o M87*, 1,115583e70.
 
 ### Comparação com a métrica de Kerr
 
