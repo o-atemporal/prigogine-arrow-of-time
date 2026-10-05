@@ -404,8 +404,7 @@ A operação reaparece porque é estrutural, não circunstancial.
 ## O que ainda não está fechado
 
 **A transformação da identidade ao longo da vida do sistema** — no estado
-canônico o par está determinado: λ = 1 e k_c = GM²/c², obtidos algebricamente,
-sem valor calibrado. O que resta é a variação da identidade quando o raio decai.
+canônico o par está determinado: λ = 1 e k_c = GM²/c², obtidos algebricamente. O que resta é a variação da identidade quando o raio decai.
 
 As três pendências conceituais estão resolvidas: a direção da entropia (9ª Forma),
 a correspondência com Prigogine, e a assimetria temporal (48ª Forma).
