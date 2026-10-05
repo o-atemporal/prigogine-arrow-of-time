@@ -263,21 +263,45 @@ $$
 com o expoente dado pela dimensão do domínio — **n = 1 no canônico,
 n = 2 no relativístico**.
 
-### Termos de verificação
+## Comparação com o modelo de fora
 
-| Massa | R_c (m) | Φ (J) | k_c = GM²/c² |
+### Por massa, no limite χ = 1
+
+| Massa | R_c Atemporal (m) | r₊ Kerr (m) | Desvio |
 | --- | --- | --- | --- |
-| 1 M_sol | 1,477e3 | 1,788e47 | 2,938e33 |
-| 10 M_sol | 1,477e4 | 1,788e48 | 2,938e35 |
-| 100 M_sol | 1,477e5 | 1,788e49 | 2,938e37 |
-| Sgr A* | 6,351e9 | 7,687e53 | 5,432e46 |
-| M87* | 9,601e12 | 1,162e57 | 1,241e53 |
+| 1 M_sol | 1,477e3 | 1,477e3 | 0,0000000000 % |
+| 10 M_sol | 1,477e4 | 1,477e4 | 0,0000000000 % |
+| 100 M_sol | 1,477e5 | 1,477e5 | 0,0000000000 % |
+| Sgr A* | 6,351e9 | 6,351e9 | 0,0000000000 % |
+| M87* | 9,601e12 | 9,601e12 | 0,0000000000 % |
 
-**Escala com a massa.** k(2M)/k(M) = 4,000000 · k(3M)/k(M) = 9,000000 —
-verificado.
+### O desvio é do limite, não da massa
+
+A coincidência vale no limite de rotação extrema. Fora dele, o modelo dá o raio
+gravitacional puro e o horizonte de Kerr se afasta:
+
+| χ | r₊/R_c | Desvio |
+| --- | --- | --- |
+| 0,0 | 2,000000 | +100,000000 % |
+| 0,5 | 1,866025 | +86,602540 % |
+| 0,9 | 1,435890 | +43,588989 % |
+| 0,99 | 1,141067 | +14,106724 % |
+| **1,0** | **1,000000** | **0,0000000000 %** |
+
+O desvio em χ = 0,9 é **+43,588989 %** — **idêntico para todas as massas**
+testadas (1, 10, 100 M_sol, Sgr A*, M87*). É um fator puro de spin: a razão
+r₊/R_c = 1 + √(1 − χ²) não contém a massa.
+
+### Leitura
+
+No limite de rotação extrema o raio do modelo coincide com o horizonte externo
+de Kerr, com o ISCO e com a esfera de fótons — os quatro convergem para GM/c².
+Fora do extremo, o modelo mantém o raio gravitacional enquanto o horizonte de
+Kerr cresce, e a diferença é o termo de rotação (1 + √(1 − χ²)).
+
 
 **Dimensão de k_c.** Massa × comprimento (kg·m).
-
+---
 ### Os dois troncos
 
 | Tronco | Origem | k | Escala com M |
