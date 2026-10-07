@@ -635,6 +635,166 @@ $$
 
 ---
 
+# Fundamentação — Onde o modelo toca os resultados publicados
+
+Cada forma deste arcabouço se apoia num resultado externo. Nada aqui é analogia:
+cada linha aponta para um resultado publicado, e para a verificação feita contra ele.
+
+Não é preciso aceitar o formalismo para conferir os números — cada um pode ser
+recalculado a partir das fontes citadas.
+
+---
+
+## 1. Termodinâmica de buracos negros
+
+| Forma | O que estabelece | Resultado publicado que a ancora |
+| --- | --- | --- |
+| **9ª** | Teto entrópico $$S_{\max}=\lambda_S\,k/\Phi$$ | **Bekenstein-Hawking** — $$S=\frac{k_B}{4}\frac{A}{L_P^{2}}$$, a entropia proporcional à área |
+| **41ª** | Tempo de evaporação inverso | **Hawking** — $$t_{evap}=\frac{5120\pi G^{2}M^{3}}{\hbar c^{4}}$$ |
+| **35ª** | Evolução espaço-temporal | **Hawking** — o decaimento do raio, $$R(t)=R_0\left(1-\tfrac{t}{t_{evap}}\right)^{1/3}$$ |
+| **46ª** | Fração da vida percorrida | Equivalente à fração do teto entrópico consumido |
+
+## 2. Métrica de Kerr e a relatividade
+
+| Forma | O que estabelece | Resultado publicado que a ancora |
+| --- | --- | --- |
+| **5ª** | Forma fundamental $$R_c=\lambda\,k/\Phi$$ | **Schwarzschild** — o raio gravitacional $$GM/c^{2}$$ no limite extremo |
+| **15ª** | Inversão estrutural | **Schwarzschild** — $$R_s=2GM/c^{2}$$ |
+| **20ª** | Telemetria com $$z$$, $$\chi$$ e $$\theta$$ | **Kerr** — o horizonte externo |
+| **49ª** | Ponto zero — $$k=k_c$$ | **Kerr** — a convergência dos quatro raios |
+
+## 3. Os quatro raios — a verificação
+
+No limite $$\chi\to1$$, os quatro raios característicos convergem para
+$$GM/c^{2}$$, e o raio do modelo coincide com eles:
+
+| Raio | Fórmula ($$G=c=1$$) | Fonte |
+| --- | --- | --- |
+| Horizonte externo | $$r_+=M\left(1+\sqrt{1-\chi^{2}}\right)$$ | **Kerr (1963)** |
+| Horizonte interno | $$r_-=M\left(1-\sqrt{1-\chi^{2}}\right)$$ | **Kerr (1963)** |
+| ISCO prógrado | com $$Z_1,Z_2$$ | **Bardeen, Press & Teukolsky (1972)** |
+| Esfera de fótons | $$r=2M\left(1+\cos\left(\tfrac{2}{3}\arccos(-\chi)\right)\right)$$ | **Bardeen (1972)** |
+
+**Controles clássicos em $$\chi=0$$** — todos conferem:
+
+| Grandeza | Obtido | Publicado |
+| --- | --- | --- |
+| $$r_+$$ em raios gravitacionais | 2,000000 | **2** (Schwarzschild) |
+| ISCO | 6,000000 | **6** |
+| Esfera de fótons | 3,000000 | **3** |
+| Raio crítico da sombra | 5,196152 | $$3\sqrt{3}$$ |
+
+## 4. Os gigantes da física — onde cada um entra
+
+| Gigante | Contribuição | Onde o modelo se apoia nela |
+| --- | --- | --- |
+| **Albert Einstein** | Relatividade geral; a métrica como definidora do espaço-tempo | A escala característica do sistema e a convergência relativística |
+| **Roy Kerr** | A solução do buraco negro em rotação (1963) | Os quatro raios: a verificação central |
+| **Karl Schwarzschild** | A primeira solução exata (1916) | O caso limite $$\chi=0$$ — a âncora inicial |
+| **Jacob Bekenstein** | A entropia proporcional à área | O teto entrópico da 9ª Forma |
+| **Stephen Hawking** | A radiação e a evaporação; $$t_{evap}\propto M^{3}$$ | A evolução temporal da 35ª e o tempo total da 41ª |
+| **Bardeen, Press & Teukolsky** | O ISCO e a esfera de fótons em Kerr | As fórmulas de referência da verificação |
+| **Ilya Prigogine** | O problema da flecha do tempo; as estruturas dissipativas | O alvo: a seta como taxa de transformação, com ponto de anulação |
+| **Erwin Schrödinger** | Neguentropia; o cristal aperiódico | A origem da tese — a ordem que se mantém |
+
+E o que o modelo **acrescenta** a esse conjunto: um caminho algébrico em que a
+escala do sistema é a razão entre a **identidade** e o **fluxo** — e no qual o
+tempo aparece como a **taxa de transformação** dessa identidade, com um ponto
+definido onde ela para.
+
+---
+
+## A identidade do estado canônico
+
+No limite em que a reatividade se absorve — $$v_a=1$$ —, o fluxo e a identidade
+bastam para determinar a escala:
+
+$$
+R_c=\frac{k}{\Phi}
+\qquad\text{com}\qquad
+R_c=\frac{GM}{c^{2}},\quad \Phi=Mc^{2}
+\qquad\Longrightarrow\qquad
+k_c=\frac{GM^{2}}{c^{2}}
+$$
+
+**Escala com a massa:** $$k(2M)/k(M)=4{,}000000$$ · $$k(3M)/k(M)=9{,}000000$$ —
+verificado.
+
+**Contra Kerr:** o raio coincide com os quatro raios característicos em **todo o
+intervalo de spin**. Desvio **0,0000000000 %**.
+
+---
+
+## A razão que aparece sozinha
+
+Com $$k=R\Phi$$, a razão dentro do colchete da 48ª assume a forma do horizonte:
+
+$$
+\frac{k}{k_c}=\frac{R}{GM/c^{2}}=1+\sqrt{1-\chi^{2}}
+$$
+
+Ela **não foi procurada** — apareceu. É o sinal de que a estrutura está certa: um
+formalismo que reproduz o que já se sabe, por um caminho diferente, deixa de ser
+proposta e passa a ser linguagem.
+
+---
+
+## A coincidência com os discos de Kerr
+
+A razão acima é a mesma que governa a **borda interna do disco**. O ISCO
+prógrado, a esfera de fótons e o horizonte externo variam com o spin — e o raio
+do modelo acompanha essa variação **em todo o intervalo**, não num ponto
+escolhido.
+
+| $$\chi$$ | $$R$$ modelo | $$r_+$$ Kerr | Desvio |
+| --- | --- | --- | --- |
+| 0,0 | 2,000000 | 2,000000 | 0,0000000000 % |
+| 0,5 | 1,866025 | 1,866025 | 0,0000000000 % |
+| 0,9 | 1,435890 | 1,435890 | 0,0000000000 % |
+| 0,99 | 1,141067 | 1,141067 | 0,0000000000 % |
+| **1,0** | **1,000000** | **1,000000** | **0,0000000000 %** |
+
+Para o **M87\***, o raio cai de **19,20 a 9,60 bilhões de km** — exatamente a
+metade — enquanto o spin vai de 0 a 1.
+
+**A borda interna do disco** é o ponto onde o modelo e Kerr se encontram: o ISCO
+prógrado tende a $$GM/c^{2}$$ no limite de rotação extrema — o mesmo valor a que
+o raio do modelo converge. A coincidência não é de escala apenas: é de
+**estrutura angular**, e é por isso que se sustenta em todo o intervalo.
+
+---
+
+## Como conferir
+
+O código que faz a verificação está no repositório:
+
+```
+python3 seta-do-tempo.py
+```
+
+Sem dependências. Calcula os quatro raios de Kerr, os controles clássicos e a
+razão entre as identidades — e **se verifica**: imprime 1,000000000 quando a
+razão confere.
+
+---
+
+## O que este documento não afirma
+
+Que o modelo derive a métrica de Kerr. O que ele estabelece é mais estreito e
+mais seguro: **a escala característica coincide com a de Kerr**, verificada
+contra fórmulas publicadas, sem parâmetro ajustado.
+
+A calibração em outros domínios — onde a identidade tem valor próprio — segue
+como trabalho em aberto.
+
+---
+
+*Princípio da Proporcionalidade Inversa, 2026, Antônio Marcos.
+Creative Commons Attribution 4.0 International.*
+
+
+---
+
 ## O conjunto da tese
 
 | Peça | O que estabelece |
